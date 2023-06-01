@@ -11,7 +11,7 @@ const introdata = {
         second: "code.",
         third: "photograph.",
     },
-    description: "I'm a Senior Year Communication Design student from Jaipur, currently based in Mumbai.",
+    description: "I'm a Senior Year Communication Design student from Jaipur, currently based in Mumbai. This is my 2023's, self-curated portfolio.",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
 };
 
@@ -32,10 +32,16 @@ const worktimeline = [{
         skills:"Design Principles of UI, Layouting, HTML, CSS",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
+        jobtitle: "HOD Security",
+        where: "ISDI Inferno 2022",
+        date: "2022",
+        skills:"Leadership, problem-solving",
+    },
+    {
+        jobtitle: "Cinematographer and Assistant Editor",
+        where: "G P Productions",
         date: "2019",
-        skills:"Design Principles of UI, React.js, Tailwind CSS",
+        skills:"Cinema, Story-telling, Editing ",
     },
 ];
 
@@ -57,7 +63,7 @@ const skills = [{
     },
     {
         name: "Research",
-        value: 55,
+        value: 85,
     },
     {
         name: "Photography & Cinematography",
@@ -80,16 +86,7 @@ const services = [{
 ];
 
 const dataportfolio = [
-    {
-        img: "https://i.ibb.co/JkPzGsQ/15.jpg",
-        description: "THEKA ~ Branding",
-        link: "/theka",
-    },    
-    {
-        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
-        description: "Ek Chatur Naar ~ Type Illustration",
-        link: "/salus",
-    },
+    
     {
         img: "https://i.ibb.co/0fWQnrt/1576.png",
         description: "Salus ~ AI enabled User-interface",
@@ -99,6 +96,21 @@ const dataportfolio = [
         img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
         description: "Omar ~ Music App",
         link: "/omar",
+    },
+    {
+        img: "https://f4.bcbits.com/img/a0763189012_10.jpg",
+        description: "Wahin Ka Wahin ~ Music Video",
+        link: "/wahin",
+    },
+    {
+        img: "https://i.ibb.co/JkPzGsQ/15.jpg",
+        description: "THEKA ~ Branding",
+        link: "/theka",
+    },    
+    {
+        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
+        description: "Ek Chatur Naar ~ Type Illustration",
+        link: "/ekchatur",
     },
 ];
 
@@ -172,6 +184,37 @@ const salus = [
 
 ];
 
+const ekchatur = [
+{img: "https://i.ibb.co/kS7cS3s/ekchaturnaar-01.jpg"},
+{img: "https://i.ibb.co/XztYM45/ekchaturnaar-02.jpg"},
+{img: "https://i.ibb.co/g4L533W/ekchaturnaar-03.jpg"},
+{img: "https://i.ibb.co/j58cC4M/ekchaturnaar-04.jpg"},
+{img: "https://i.ibb.co/7vdFQ1s/ekchaturnaar-05.jpg"},
+{img: "https://i.ibb.co/8Ddq8tf/ekchaturnaar-06.jpg"},
+{img: "https://i.ibb.co/vHJv7g2/ekchaturnaar-07.jpg"},
+{img: "https://i.ibb.co/JmQy5F1/ekchaturnaar-08.jpg"},
+{img: "https://i.ibb.co/n6Fww4X/ekchaturnaar-09.jpg"},
+{img: "https://i.ibb.co/TMfVmmY/ekchaturnaar-10.jpg"},
+{img: "https://i.ibb.co/cN36Cnj/ekchaturnaar-11.jpg"},
+{img: "https://i.ibb.co/dkZBF1p/ekchaturnaar-12.jpg"},
+{img: "https://i.ibb.co/MfwnWxp/ekchaturnaar-13.jpg"},
+{img: "https://i.ibb.co/7WBpTwC/ekchaturnaar-14.jpg"},
+{img: "https://i.ibb.co/D8zChFT/ekchaturnaar-15.jpg"},
+{img: "https://i.ibb.co/5BhxpxK/ekchaturnaar-16.jpg"},
+{img: "https://i.ibb.co/mG5r0y5/ekchaturnaar-17.jpg"},
+{img: "https://i.ibb.co/G2jqXjh/ekchaturnaar-18.jpg"},
+{img: "https://i.ibb.co/hgwYbNt/ekchaturnaar-19.jpg"},
+{img: "https://i.ibb.co/ygL6Vzx/ekchaturnaar-20.jpg"},
+{img: "https://i.ibb.co/t8Ydpcm/ekchaturnaar-23.jpg"},
+{img: "https://i.ibb.co/64gT1Yv/ekchaturnaar-24.jpg"},
+];
+
+const ekchatur2 = [
+    {img: "https://i.ibb.co/9rGbmMj/Honesh2.png"},
+    {img: "https://i.ibb.co/ZmLb6kx/honeshh.png"},
+    {img: "https://i.ibb.co/MnWhShf/Honesh1.png"},
+]
+
 
 export {
     meta,
@@ -187,4 +230,6 @@ export {
     theka,
     omar,
     salus,
+    ekchatur,
+    ekchatur2,
 };

@@ -1,11 +1,11 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./style.css";
-import { ekchatur } from "../../content_option";
+import { ekchatur, ekchatur2 } from "../../content_option";
 import React, { useEffect, useState } from "react";
 import { IoArrowBackCircleSharp } from "react-icons/wi";
 import Headermain from "../../header";
 
-export const Theka = () => {
+export const Ekchatur = () => {
 
   return (
     <div className="">
@@ -17,9 +17,9 @@ export const Theka = () => {
       <section className="mb-5">
           <h2 className="text-lg font-bold mb-4">Features</h2>
           <ul className="list-none flex gap-3">
-            <li className="rounded-2xl bg-slate-600 font-bold py-1 px-4">Branding</li>
-            <li className="rounded-2xl bg-slate-600 font-bold py-1 px-4">Research</li>
-            <li className="rounded-2xl bg-slate-600 font-bold py-1 px-4">Brand Identity</li>
+            <li className="rounded-2xl bg-slate-600 text-white font-bold py-1 px-4">Branding</li>
+            <li className="rounded-2xl bg-slate-600 text-white font-bold py-1 px-4">Research</li>
+            <li className="rounded-2xl bg-slate-600 text-white font-bold py-1 px-4">Brand Identity</li>
           </ul>
         </section>
 
@@ -32,25 +32,31 @@ export const Theka = () => {
         </section>
         <section className="mb-8">
           <h2 className="text-lg font-bold mb-4">Project Overview</h2>
-          <p className="">
-           The Project required us to choose a local shop owner, Research on the the product they are selling, their market and target audience 
-           and give these generic shops around our locality a new brand identity.
+          <p className="text-lg px-12 mt-5">
+           Typography when illustrated has given some really amazing results, that is what I have tried to explore here. I have tried to express the narrative of a very famous musical from the movie "Padosan", 'Ek Chatur Naar'.
           </p>
         </section>
 
         <section className="my-5">
-          <div className="container flex-col">
-          {theka.map((theka, i) => {
+          <div className="max-w-screen-2xl grid grid-cols-2 flex-col">
+          {ekchatur.map((theka, i) => {
             return (
                 <img className="my-4" key={i} src={theka.img} alt="" />
             );
           })}
           </div>
         </section>
+
+        <section className="my-5 w-full">
+          <p className="font-bold flex justify-center text-4xl max-sm:text-lg">MOCKUPS</p>
+          {ekchatur2.map((list, i) => {
+            return(
+              <img className="my-4" key={i} src={list.img} alt="" />
+            )
+          })}
+        </section>
         
-        <section>
-          <a href="">Figma Prototyp</a>
-        </section>       
+           
       </main>
 
       <footer className="">

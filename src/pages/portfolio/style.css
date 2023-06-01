@@ -36,6 +36,8 @@
 .po_item img {
     width: 100%;
     position: absolute;
+    object-fit: cover;
+    min-height: 400px;
     
 }
 

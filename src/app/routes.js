@@ -7,7 +7,9 @@ import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
 import { Theka } from "../pages/theka";
 import { Omar } from "../pages/omar";
-import { Salus } from "../pages/salus"
+import { Salus } from "../pages/salus";
+import { Ekchatur } from "../pages/ekChatur";
+import { Wahin } from "../pages/wahinkawahin";
 
 
 import { Socialicons } from "../components/socialicons";
@@ -32,6 +34,8 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/theka" element={<Theka />} />
         <Route path="/omar" element={<Omar />} />
         <Route path="/salus" element={<Salus />} />
+        <Route path="/ekchatur" element={<Ekchatur />} />
+        <Route path="/wahin" element={<Wahin />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>

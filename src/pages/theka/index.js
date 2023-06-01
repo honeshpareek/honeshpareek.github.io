@@ -31,7 +31,7 @@ export const Theka = () => {
         </section>
         <section className="mb-8">
           <h2 className="text-lg font-bold mb-4">Project Overview</h2>
-          <p className="">
+          <p className="text-lg px-12 mt-5">
            The Project required us to choose a local shop owner, Research on the the product they are selling, their market and target audience 
            and give these generic shops around our locality a new brand identity.
           </p>

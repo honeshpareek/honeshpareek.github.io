@@ -11,7 +11,7 @@ const disable = () => {
 
 export const Portfolio = () => {
   return (
-    <div>
+    <div className="sm: px-4">
       <div className="About-header">
         <div>
           <meta charSet="utf-8" />
@@ -24,12 +24,12 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-3 po_items_ho">
+        <div className="mb-3 grid grid-cols-2 max-sm:grid-cols-1 gap-3 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
-                <div className="content">
+                <div className="content font-black">
                   <p>{data.description}</p>
                   <Link to={data.link}>view project</Link>
                 </div>
