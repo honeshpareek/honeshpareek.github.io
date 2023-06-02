@@ -1,7 +1,6 @@
 {
-    "name": "react-portfolio",
+    "name": "honeshpareek",
     "version": "0.1.0",
-    "homepage": "https://honeshpareek.github.io/honeshpareek",
     "private": true,
     "dependencies": {
         "@emailjs/browser": "^3.11.0",
@@ -23,9 +22,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": [
@@ -47,7 +44,6 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.14",
-        "gh-pages": "^5.0.0",
         "postcss": "^8.4.23",
         "tailwindcss": "^3.3.2"
     }

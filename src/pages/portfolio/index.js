@@ -5,9 +5,6 @@ import { dataportfolio, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import Themetoggle from "../../components/themetoggle";
 
-const disable = () => {
-    set
-}
 
 export const Portfolio = () => {
   return (
