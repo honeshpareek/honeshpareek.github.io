@@ -14,7 +14,7 @@
     display: flex !important;
     flex-direction: column !important;
     
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 1024px) {
         flex-direction: row !important;
         gap: 2.2em;
         margin-bottom: 2.5em;

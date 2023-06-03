@@ -112,6 +112,11 @@ const dataportfolio = [
         description: "Ek Chatur Naar ~ Type Illustration",
         link: "/ekchatur",
     },
+    {
+        img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
+        description: "Subway ~ Sustainable Packaging",
+        link: "/sub",
+    },
 ];
 
 const contactConfig = {
@@ -169,7 +174,7 @@ const omar =[
 
 const salus = [
     {img: "https://i.ibb.co/zfc5my2/1.jpg"},
-    {img: "https://i.ibb.co/zR14nL3/2.jpg"},
+    {img: "https://i.ibb.co/6Nn71nq/2.jpg"},
     {img: "https://i.ibb.co/C8xk670/3.jpg"},
     {img: "https://i.ibb.co/dtMSRnJ/4.jpg"},
     {img: "https://i.ibb.co/khbrmdB/5.jpg"},
@@ -213,6 +218,34 @@ const ekchatur2 = [
     {img: "https://i.ibb.co/9rGbmMj/Honesh2.png"},
     {img: "https://i.ibb.co/ZmLb6kx/honeshh.png"},
     {img: "https://i.ibb.co/MnWhShf/Honesh1.png"},
+];
+
+const sub = [
+{img: "https://i.ibb.co/q9488Ht/1.jpg"},
+{img: "https://i.ibb.co/r6x3KvX/2.jpg"},
+{img: "https://i.ibb.co/D4jvgKR/3.jpg"},
+{img: "https://i.ibb.co/GCdGTMV/4.jpg"},
+{img: "https://i.ibb.co/9qs214Z/5.jpg"},
+{img: "https://i.ibb.co/HXPwCLh/6.jpg"},
+{img: "https://i.ibb.co/SKKLs2k/7.jpg"},
+{img: "https://i.ibb.co/bFMYvSq/8.jpg"},
+{img: "https://i.ibb.co/G5pfBjt/9.jpg"},
+{img: "https://i.ibb.co/KmBtX9t/10.jpg"},
+{img: "https://i.ibb.co/hKyfC6B/11.jpg"},
+{img: "https://i.ibb.co/94c4FTS/12.jpg"},
+{img: "https://i.ibb.co/0Dk2tqW/13.jpg"},
+{img: "https://i.ibb.co/7jsGsJY/14.jpg"},
+{img: "https://i.ibb.co/7VPXT45/15.jpg"},
+{img: "https://i.ibb.co/1smpQk7/16.jpg"},
+{img: "https://i.ibb.co/jJ3cCS4/17.jpg"},
+{img: "https://i.ibb.co/t8tgmTg/18.jpg"},
+{img: "https://i.ibb.co/0rf57cc/19.jpg"},
+{img: "https://i.ibb.co/y8LV3cy/20.jpg"},
+{img: "https://i.ibb.co/cC39WZn/21.jpg"},
+{img: "https://i.ibb.co/zJ9W5TG/22.jpg"},
+{img: "https://i.ibb.co/n65KHZF/23.jpg"},
+{img: "https://i.ibb.co/F68t2dy/24.jpg"},
+{img: "https://i.ibb.co/z6ngYRV/25.jpg"},
 ]
 
 
@@ -232,4 +265,5 @@ export {
     salus,
     ekchatur,
     ekchatur2,
+    sub
 };
