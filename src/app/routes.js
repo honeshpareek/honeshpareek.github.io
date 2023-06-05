@@ -11,6 +11,7 @@ import { Salus } from "../pages/salus";
 import { Ekchatur } from "../pages/ekChatur";
 import { Wahin } from "../pages/wahinkawahin";
 import { Sub } from "../pages/subway";
+import { Gallery } from "../pages/photo"
 
 
 import { Socialicons } from "../components/socialicons";
@@ -38,6 +39,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/ekchatur" element={<Ekchatur />} />
         <Route path="/wahin" element={<Wahin />} />
         <Route path="/sub" element={<Sub />} />
+        <Route path="/photo" element={<Gallery />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>
