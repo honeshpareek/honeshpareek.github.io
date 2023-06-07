@@ -250,7 +250,20 @@ const sub = [
 {img: "https://i.ibb.co/n65KHZF/23.jpg"},
 {img: "https://i.ibb.co/F68t2dy/24.jpg"},
 {img: "https://i.ibb.co/z6ngYRV/25.jpg"},
+];
+
+const wahin = [
+   
+    {img: "https://i.ibb.co/fd636Cc/8.jpg"},
+    {img: "https://i.ibb.co/BCFDxGv/9.jpg"},
+    {img: "https://i.ibb.co/Z67ftds/10.jpg"},
+    {img: "https://i.ibb.co/Hd7HYtD/11.jpg"},
+    {img: "https://i.ibb.co/6NXdZNT/12.jpg"},
+    {img: "https://i.ibb.co/1Qk0hNQ/13.jpg"},
+    {img: "https://i.ibb.co/zHfkvW4/14.jpg"},
+    {img: "https://i.ibb.co/bKp6XXL/15.jpg"},
 ]
+
 
 
 export {
@@ -269,5 +282,6 @@ export {
     salus,
     ekchatur,
     ekchatur2,
-    sub
+    sub,
+    wahin
 };
