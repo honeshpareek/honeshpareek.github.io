@@ -10,7 +10,7 @@ export const Ekchatur = () => {
   return (
     <div className="">
         <div className="container mx-auto py-6">
-          <h1 className="text-4xl font-bold">THEKA - Local Liqour Shop Branding</h1>
+          <h1 className="text-4xl font-bold">EkChatur Naar ~ Type Illustration</h1>
         </div>
 
       <main className="container mx-auto py-8">
