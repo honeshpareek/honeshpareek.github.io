@@ -14,11 +14,19 @@
     display: flex !important;
     flex-direction: column !important;
     
-    @media only screen and (max-width: 1024px) {
-        flex-direction: row !important;
-        gap: 2.2em;
-        margin-bottom: 2.5em;
+   
+}
 
+@media only screen and (max-width: 1024px) {
+    .stick_follow_icon ul{
+    flex-direction: row !important;
+    gap: 2.2em;
+    margin-bottom: 2.5em;
+
+    }
+
+    .stick_follow_icon p{
+        display: none;
     }
 }
 
@@ -41,10 +49,6 @@
     position: relative;
     transform: rotate( -90deg);
 
-    
-    @media only screen and (max-width: 767px) {
-        display: none;
-     }
 }
 
 .stick_follow_icon ul li {

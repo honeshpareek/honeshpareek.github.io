@@ -117,11 +117,11 @@ const dataportfolio = [
         description: "Subway ~ Sustainable Packaging",
         link: "/sub",
     },
-    {
-        img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
-        description: "Photography",
-        link: "/photo",
-    },
+    // {
+    //     img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
+    //     description: "Photography",
+    //     link: "https://honeshraipareek.github.io/photo.html",
+    // },
 ];
 
 const contactConfig = {
@@ -137,9 +137,8 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/honeshraipareek",
-    facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/honeshraipareek/",
-    twitter: "https://twitter.com",
+    whatsapp: "https://wa.me/7014723173",
 };
 
 const theka =[

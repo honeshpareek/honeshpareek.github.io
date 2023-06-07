@@ -38,7 +38,9 @@ export const Wahin = () => {
 
         <section className="my-5 px-14">
           <div className="flex-col h-screen">
-          <iframe src="https://drive.google.com/file/d/1PyeMAYQrQK-QerzHK1Bet9ydUOVSEi6b/preview" className="w-full h-full" allow="autoplay fullscreen"></iframe>
+          <video width="750" height="500" controls >
+      <source src="https://share.internxt.com/d/s/file/f94a9ec1355ac253ae14/450462318958fdc6ad6b6ef6a3360774b9b01837d9052ea8e577050c1808909c" type="video/mp4"/>
+     </video>
           </div>
         </section>
 

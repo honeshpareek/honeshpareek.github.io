@@ -33,6 +33,13 @@ export const Portfolio = () => {
               </div>
             );
           })}
+          <div className="po_item1">
+            <img src="https://honeshraipareek.github.io/photography/auto.jpg" alt="auto" />
+            <div className="content1 font-black">
+              <p>Photography</p>
+              <a target="_blank" href="https://honeshraipareek.github.io/photo.html">view project</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
