@@ -1,6 +1,7 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { omar } from "../../content_option";
 import React, { useEffect, useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { wahin } from "../../content_option";
 
 
@@ -42,7 +43,7 @@ export const Wahin = () => {
           <div className="flex-col">
           {wahin.map((salus, i) => {
             return (
-                <img className="my-4" key={i} src={salus.img} alt="" />
+                <LazyLoadImage className="my-4" key={i} src={salus.img} alt="" />
             );
           })}
           </div>

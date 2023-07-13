@@ -4,6 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import Themetoggle from "../../components/themetoggle";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 export const Portfolio = () => {
@@ -25,7 +26,7 @@ export const Portfolio = () => {
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
-                <img src={data.img} alt="" />
+                <LazyLoadImage src={data.img} alt="" />
                 <div className="content font-black">
                   <p>{data.description}</p>
                   <Link to={data.link}>view project</Link>
@@ -34,7 +35,7 @@ export const Portfolio = () => {
             );
           })}
           <div className="po_item1">
-            <img src="https://honeshraipareek.github.io/photography/auto.jpg" alt="auto" />
+            <LazyLoadImage src="https://honeshraipareek.github.io/photography/auto.jpg" alt="auto" />
             <div className="content1 font-black">
               <p>Photography</p>
               <a target="_blank" href="https://honeshraipareek.github.io/photo.html">view project</a>

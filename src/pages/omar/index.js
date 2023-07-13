@@ -1,8 +1,7 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./style.css";
 import { omar } from "../../content_option";
-import React, { useEffect, useState } from "react";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export const Omar = () => {
 
@@ -39,7 +38,7 @@ export const Omar = () => {
           <div className=" w-screen flex-col">
           {omar.map((omar, i) => {
             return (
-                <img className="my-4" key={i} src={omar.img} alt="" />
+                <LazyLoadImage className="my-4" key={i} src={omar.img} alt="" />
             );
           })}
           </div>

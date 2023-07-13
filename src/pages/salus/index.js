@@ -1,7 +1,7 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./style.css";
 import { salus } from "../../content_option";
-import React, { useEffect, useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 export const Salus = () => {
@@ -47,7 +47,7 @@ export const Salus = () => {
           <div className="flex-col">
           {salus.map((salus, i) => {
             return (
-                <img className="my-4" key={i} src={salus.img} alt="" />
+                <LazyLoadImage className="my-4" key={i} src={salus.img} alt="" />
             );
           })}
           </div>

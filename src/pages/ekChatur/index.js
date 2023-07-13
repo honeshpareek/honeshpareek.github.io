@@ -2,8 +2,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./style.css";
 import { ekchatur, ekchatur2 } from "../../content_option";
 import React, { useEffect, useState } from "react";
-import { IoArrowBackCircleSharp } from "react-icons/wi";
-import Headermain from "../../header";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export const Ekchatur = () => {
 
@@ -41,7 +40,7 @@ export const Ekchatur = () => {
           <div className="max-w-screen-2xl grid grid-cols-2 flex-col">
           {ekchatur.map((theka, i) => {
             return (
-                <img className="my-4" key={i} src={theka.img} alt="" />
+                <LazyLoadImage className="my-4" key={i} src={theka.img} alt="" />
             );
           })}
           </div>
@@ -51,7 +50,7 @@ export const Ekchatur = () => {
           <p className="font-bold flex justify-center text-4xl max-sm:text-lg">MOCKUPS</p>
           {ekchatur2.map((list, i) => {
             return(
-              <img className="my-4" key={i} src={list.img} alt="" />
+              <LazyLoadImage className="my-4" key={i} src={list.img} alt="" />
             )
           })}
         </section>

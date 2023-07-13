@@ -1,7 +1,7 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./style.css";
 import { theka } from "../../content_option";
-import React, { useEffect, useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 export const Theka = () => {
@@ -41,7 +41,7 @@ export const Theka = () => {
           <div className="max-w-screen-2xl  flex-col">
           {theka.map((theka, i) => {
             return (
-                <img className="my-4" key={i} src={theka.img} alt="" />
+                <LazyLoadImage className="my-4" key={i} src={theka.img} alt="" />
             );
           })}
           </div>
