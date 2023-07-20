@@ -11,7 +11,7 @@ const introdata = {
         second: "code.",
         third: "photograph.",
     },
-    description: "I'm a Senior Year Communication Design student from Jaipur, currently based in Mumbai. This is my 2023's, self-curated portfolio.",
+    description: "I'm a Senior Year Communication Design student from Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
 };
 
