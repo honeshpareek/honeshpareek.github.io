@@ -20,25 +20,25 @@ const dataabout = {
     aboutme: "I am 21 years old, I have always loved the art of Photography and I have a strong interest in creating non-tangible outcomes through design tools that solve a problem or create an impact.",
 };
 const worktimeline = [{
-        jobtitle: "UI Developer",
+        jobtitle: "🧑‍💻 UI Developer",
         where: "Club Mahindra",
         date: "2022",
         skills:"Design Principles of UI, React.js, Tailwind CSS",
     },
     {
-        jobtitle: "Web Designer",
+        jobtitle: "✏️ Web Designer",
         where: "Addventures by Anando Dutta",
         date: "2022",
         skills:"Design Principles of UI, Layouting, HTML, CSS",
     },
     {
-        jobtitle: "HOD Security",
+        jobtitle: "🪖 HOD Security",
         where: "ISDI Inferno 2022",
         date: "2022",
         skills:"Leadership, problem-solving",
     },
     {
-        jobtitle: "Cinematographer and Assistant Editor",
+        jobtitle: "📸 Cinematographer and Assistant Editor",
         where: "G P Productions",
         date: "2019",
         skills:"Cinema, Story-telling, Editing ",
@@ -54,16 +54,24 @@ const skills = [{
         value: 85,
     },
     {
-        name: "Leadership",
+        name: "Design Thinking",
+        value: 92,
+    },
+    {
+        name: "Interaction Design",
         value: 95,
     },
     {
-        name: "Front-end Development",
+        name: "Front-end Development (Web)",
         value: 80,
     },
     {
         name: "Research",
         value: 85,
+    },
+    {
+        name: "Problem Solving",
+        value: 97,
     },
     {
         name: "Photography & Cinematography",
