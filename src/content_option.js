@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I am 21 years old, I have always loved the art of Photography and I have a strong interest in creating non-tangible outcomes through design tools that solve a problem or create an impact.",
+    aboutme: "I am 21 years old, I have always loved the art of Photography and I have a strong interest in creating tangible & non-tangible outcomes through design tools that solve a problem or create an impact.",
 };
 const worktimeline = [{
         jobtitle: "🧑‍💻 UI Developer",
@@ -46,35 +46,35 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Communication",
+        name: "🎙️ Communication",
         value: 90,
     },
     {
-        name: "Adobe Suite",
+        name: "✏️ Adobe Suite",
         value: 85,
     },
     {
-        name: "Design Thinking",
+        name: "💭 Design Thinking",
         value: 92,
     },
     {
-        name: "Interaction Design",
+        name: "✌️ Interaction Design",
         value: 95,
     },
     {
-        name: "Front-end Development (Web)",
+        name: "👨‍💻 Front-end Development (Web)",
         value: 80,
     },
     {
-        name: "Research",
+        name: "🔍 Research",
         value: 85,
     },
     {
-        name: "Problem Solving",
+        name: "🐊 Problem Solving",
         value: 97,
     },
     {
-        name: "Photography & Cinematography",
+        name: "📸 Photography & Cinematography",
         value: 85,
     },
 ];
@@ -125,11 +125,7 @@ const dataportfolio = [
         description: "Subway ~ Sustainable Packaging",
         link: "/sub",
     },
-    // {
-    //     img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
-    //     description: "Photography",
-    //     link: "https://honeshraipareek.github.io/photo.html",
-    // },
+
 ];
 
 const contactConfig = {
