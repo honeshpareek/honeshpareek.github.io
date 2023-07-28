@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/public</loc>
-		<priority>0.89</priority>
-		<lastmod>2023-07-28</lastmod>
-	</url>
-	<url>
 		<loc>https://www.honeshpareek.vercel.app/build</loc>
 		<priority>0.89</priority>
 		<lastmod>2023-07-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/tslib/tslib.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-07-27</lastmod>
+		<loc>https://www.honeshpareek.vercel.app/public</loc>
+		<priority>0.89</priority>
+		<lastmod>2023-07-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/tslib/tslib.es6.html</loc>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/object.assign/test.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
@@ -26,17 +21,22 @@
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/object.assign/test.html</loc>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/tslib/tslib.es6.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/terser/tools/props.html</loc>
-		<priority>0.56</priority>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/tslib/tslib.html</loc>
+		<priority>0.67</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/sprintf-js/demo/angular.html</loc>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/.cache/gh-pages/https!github.com!honeshpareek!honeshpareek.github.io.git</loc>
+		<priority>0.56</priority>
+		<lastmod>2023-06-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/flatted/php/flatted.php</loc>
 		<priority>0.56</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
@@ -46,18 +46,13 @@
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/flatted/php/flatted.php</loc>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/sprintf-js/demo/angular.html</loc>
 		<priority>0.56</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/.cache/gh-pages/https!github.com!honeshpareek!honeshpareek.github.io.git</loc>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/terser/tools/props.html</loc>
 		<priority>0.56</priority>
-		<lastmod>2023-06-01</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/tsutils/node_modules/tslib/tslib.html</loc>
-		<priority>0.44</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
@@ -66,62 +61,12 @@
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/worker/build/runner.html</loc>
-		<priority>0.11</priority>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/tsutils/node_modules/tslib/tslib.html</loc>
+		<priority>0.44</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/url-import-meta-worker/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/single-default/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/simple-bundle/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/public-path/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/more-workers/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/module-worker/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-worker-url-custom-scheme/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-worker-url/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-meta-worker/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-meta/build/runner.html</loc>
-		<priority>0.11</priority>
-		<lastmod>2023-07-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/dynamic-import/build/runner.html</loc>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/amd-function-name/build/runner.html</loc>
 		<priority>0.11</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
@@ -131,7 +76,62 @@
 		<lastmod>2023-07-27</lastmod>
 	</url>
 	<url>
-		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/amd-function-name/build/runner.html</loc>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/dynamic-import/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-meta/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-meta-worker/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-worker-url/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/import-worker-url-custom-scheme/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/module-worker/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/more-workers/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/public-path/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/simple-bundle/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/single-default/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/url-import-meta-worker/build/runner.html</loc>
+		<priority>0.11</priority>
+		<lastmod>2023-07-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/worker/build/runner.html</loc>
 		<priority>0.11</priority>
 		<lastmod>2023-07-27</lastmod>
 	</url>
