@@ -1,7 +1,7 @@
 const logotext = "";
 const meta = {
-    title: "Honesh Rai Pareek",
-    description: "I’m Honesh Rai Pareek ,currently in Mumbai",
+    title: "Honesh Rai Pareek | Portfolio 23'",
+    description: "I'm a Senior Year Communication Design student from Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
 };
 
 const introdata = {
