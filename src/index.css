@@ -96,4 +96,5 @@ code {
 
 .color_sec {
     color: var(--secondary-color);
+    text-transform: uppercase;
 }

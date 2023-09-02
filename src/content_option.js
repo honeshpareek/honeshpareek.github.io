@@ -1,7 +1,7 @@
 const logotext = "";
 const meta = {
     title: "Honesh Rai Pareek | Portfolio 23'",
-    description: "I'm a Senior Year Communication Design student from Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
+    description: "I'm a Communication Designer from Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
 };
 
 const introdata = {
@@ -17,9 +17,16 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I am 21 years old, I have always loved the art of Photography and I have a strong interest in creating tangible & non-tangible outcomes through design tools that solve a problem or create an impact.",
+    aboutme: "I have always loved the art of Photography and I have a strong interest in creating tangible & non-tangible outcomes through design tools that solve a problem or create an impact.",
 };
-const worktimeline = [{
+const worktimeline = [
+    {
+        jobtitle: "🧑‍💻 UI/UX & Branding Freelancer",
+        where: "",
+        date: "2023",
+        skills:"Branding, Brand Identity",
+    },
+    {
         jobtitle: "🧑‍💻 UI Developer",
         where: "Club Mahindra",
         date: "2022",
@@ -111,15 +118,11 @@ const dataportfolio = [
         link: "/wahin",
     },
     {
-        img: "https://i.ibb.co/JkPzGsQ/15.jpg",
+        img: "https://i.ibb.co/QmBktVP/15.jpg",
         description: "THEKA ~ Branding",
         link: "/theka",
     },    
-    {
-        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
-        description: "Ek Chatur Naar ~ Type Illustration",
-        link: "/ekchatur",
-    },
+   
     {
         img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
         description: "Subway ~ Sustainable Packaging",

@@ -36,7 +36,8 @@ export const Home = () => {
                       ],
                       autoStart: true,
                       loop: true,
-                      deleteSpeed: 10,
+                      deleteSpeed: 5,
+                      
                     }}
                   />
                   </span>

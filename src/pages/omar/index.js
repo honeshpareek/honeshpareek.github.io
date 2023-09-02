@@ -29,8 +29,8 @@ export const Omar = () => {
         </section>
         <section className="mb-8 px-8">
           <h2 className="text-lg font-bold mb-4">Project Overview</h2>
-          <p className="text-lg px-12 mt-5">
-           I have worked on building a new music app where the affordance of the app is that it allows you to sync your other music streaming accounts and playlists hence, collaborative playlists.
+          <p className="text-lg px-12 pr-20 mt-5 hyphens-none w-3/4">
+           During working on this project I had several obstacles with respect to the initial idea of creating a music app. Soon, I came across a problem which users multiple music streaming subscriptions face. In a brief, this app allows user to login with their music streaming services and sync there playlists from there.
           </p>
         </section>
 
