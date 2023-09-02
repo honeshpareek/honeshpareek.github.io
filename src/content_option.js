@@ -123,11 +123,11 @@ const dataportfolio = [
         link: "/theka",
     },    
    
-    {
-        img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
-        description: "Subway ~ Sustainable Packaging",
-        link: "/sub",
-    },
+    // {
+    //     img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
+    //     description: "Subway ~ Sustainable Packaging",
+    //     link: "/sub",
+    // },
 
 ];
 
