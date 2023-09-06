@@ -167,14 +167,11 @@ const theka =[
 
 const omar =[
 {img: "https://i.ibb.co/YX0dfLT/1.jpg"},
-{img: "https://i.ibb.co/sQbN9P6/2.jpg"},
-{img: "https://i.ibb.co/t3HcQqL/3.jpg"},
-{img: "https://i.ibb.co/GHDNww4/4.jpg"},
-{img: "https://i.ibb.co/hgJ2kpL/5.jpg"},
-{img: "https://i.ibb.co/BcLd1JJ/6.jpg"},
+{img: "https://i.ibb.co/SDkDr2c/2.png"},
+{img: "https://i.ibb.co/BfNLbR4/6.png"},
 {img: "https://i.ibb.co/KXHqh8v/7.jpg"},
 {img: "https://i.ibb.co/ZdgXYsf/8.jpg"},
-{img: "https://i.ibb.co/qDSDtzX/9.jpg"},
+{img: "https://i.ibb.co/x814k86/9.png"},
 {img: "https://i.ibb.co/4NhkhzH/10.jpg"},
 {img: "https://i.ibb.co/DR0zVLy/11.jpg"},
 {img: "https://i.ibb.co/GVkHKqZ/12.jpg"},

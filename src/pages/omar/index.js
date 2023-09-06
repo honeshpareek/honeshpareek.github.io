@@ -7,12 +7,12 @@ export const Omar = () => {
 
   return (
     <div className="">
-        <div className="container px-8 py-6">
-          <h1 className="text-6xl font-bold">Omar - Music app design</h1>
+        <div className="container py-6">
+          <h1 className="text-4xl font-bold">Omar - Music app design</h1>
         </div>
 
-      <main className=" py-8">
-      <section className="mb-5 px-8">
+      <main className=" container  py-8">
+      <section className="mb-5 ">
           <h2 className="text-lg font-bold mb-4">Features</h2>
           <ul className="list-none flex gap-3">
             <li className="rounded-2xl bg-slate-300 font-bold py-1 px-4">UI/UX</li>
@@ -21,13 +21,13 @@ export const Omar = () => {
           </ul>
         </section>
 
-        <section className="mb-8 px-8">
+        <section className="mb-8 ">
           <h2 className="text-lg font-bold mb-4">Tools</h2>
           <ul className="list-none flex gap-3">
             <li className="rounded-2xl bg-slate-700 text-white font-bold py-1 px-4">Figma</li>
           </ul>
         </section>
-        <section className="mb-8 px-8">
+        <section className="mb-8">
           <h2 className="text-lg font-bold mb-4">Project Overview</h2>
           <p className="text-lg px-12 pr-20 mt-5 hyphens-none w-3/4">
            During working on this project I had several obstacles with respect to the initial idea of creating a music app. Soon, I came across a problem which users multiple music streaming subscriptions face. In a brief, this app allows user to login with their music streaming services and sync there playlists from there.
@@ -35,7 +35,7 @@ export const Omar = () => {
         </section>
 
         <section className="my-5">
-          <div className=" w-screen flex-col">
+          <div className="-ml-32 w-screen flex-col">
           {omar.map((omar, i) => {
             return (
                 <LazyLoadImage className="my-4" key={i} src={omar.img} alt="" />

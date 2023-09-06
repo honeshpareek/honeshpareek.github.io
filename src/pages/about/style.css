@@ -1,5 +1,5 @@
 .sec_sp {
-    margin-bottom: calc(3rem + 5.128vw)
+    margin-bottom: calc(1rem + 5.128vw)
 }
 
 .table td,
@@ -18,7 +18,7 @@
     font-family: 'Raleway';
 }
 
-.progress {
+/* .progress {
     height: 5px;
     background: var(--secondary);
     border-radius: 0;
@@ -43,7 +43,7 @@
     font-weight: bold;
     font-style: italic;
     color: var(--text-color);
-}
+} */
 
 @-webkit-keyframes animate-positive {
     0% {
@@ -68,6 +68,10 @@
 
 .service-section .service-category-title {
     padding-bottom: 4px;
+}
+
+.skills-row{
+    display: flex !important;
 }
 
 

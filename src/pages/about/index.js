@@ -9,17 +9,18 @@ import {
   skills,
   services,
 } from "../../content_option";
+import SkillsCarousel from "../../components/carousel";
 
 export const About = () => {
   return (
     <HelmetProvider>
-      <Container className="About-header max-sm:px-3">
+      <Container className="About-header max-sm:px-3 max-sm:pl-5">
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className=" pt-md-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">About me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
@@ -59,10 +60,10 @@ export const About = () => {
           <Col lg="3">
             <h3 className="color_sec py-4 font-bold">Skills</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="7" className="flex flex-row justify-center align-middle flex-wrap gap-5">
             {skills.map((data, i) => {
               return (
-                <div key={i}>
+                <div key={i} className="bg-slate-500 bg-opacity-20 rounded-full flex p-2">
                   <h3 className="progress-title">{data.name}</h3>
                   {/* <div className="progress">
                     <div
@@ -78,6 +79,9 @@ export const About = () => {
               );
             })}
           </Col>
+        </Row>
+        <Row className="p-0 sec_sp justify-center flex mb-30">
+          <SkillsCarousel />
         </Row>
         <Row className="sec_sp">
           <Col lang="3">
