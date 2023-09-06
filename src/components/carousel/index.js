@@ -28,7 +28,7 @@ const skills = [
 const SkillsCarousel = () => {
     const settings = {
       infinite: true,
-      speed: 500,
+      speed: 1500,
       slidesToShow:10,
       slidesToScroll: 1,
       autoplay: true,
@@ -38,13 +38,13 @@ const SkillsCarousel = () => {
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 6,
           },
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 4,
           },
         },
       ],
@@ -55,7 +55,7 @@ const SkillsCarousel = () => {
         <Slider {...settings}>
           {skills.map((skill) => (
             <div key={skill.id} className="skill-item">
-              <div className='icon text-6xl'>{skill.icon}</div>
+              <div className='icon text-6xl max-sm:text-4xl'>{skill.icon}</div>
             </div>
           ))}
         </Slider>
