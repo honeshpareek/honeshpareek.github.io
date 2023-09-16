@@ -11,13 +11,13 @@ const introdata = {
         second: "code.",
         third: "photograph.",
     },
-    description: "I'm a Senior Year Communication Design student from Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
+    description: "I'm a Communication Designer, born and brought up in Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I have always loved the art of Photography and I have a strong interest in creating tangible & non-tangible outcomes through design tools that solve a problem or create an impact.",
+    aboutme: "I have always loved the art of Photography and I have a strong interest in creating tangible & non-tangible outcomes through design tools that solve a problem or create an impact. I go a little nerdy and pretty crazy for Formula 1! 🏎️",
 };
 const worktimeline = [
     {
@@ -101,7 +101,11 @@ const services = [{
 ];
 
 const dataportfolio = [
-    
+    {
+        img: "/dhun/mock3light.png",
+        description: "Dhun ~ Concert Planner App",
+        link: "/dhun",
+    },       
     {
         img: "https://i.ibb.co/0fWQnrt/1576.png",
         description: "Salus ~ AI enabled User-interface",
@@ -121,7 +125,8 @@ const dataportfolio = [
         img: "https://i.ibb.co/QmBktVP/15.jpg",
         description: "THEKA ~ Branding",
         link: "/theka",
-    },    
+    },   
+
    
     // {
     //     img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
@@ -135,8 +140,6 @@ const contactConfig = {
     YOUR_EMAIL: "honeshraipareek@gmail.com",
     YOUR_FONE: "(+91)70147-23173",
     description: "Please feel free to reach out to me via the form with a personalised message. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_lpfkzma",
     YOUR_TEMPLATE_ID: "template_cv8nkuh",
     YOUR_USER_ID: "GDxLD3Db3lzXQTh1T",
@@ -228,6 +231,18 @@ const ekchatur2 = [
     {img: "https://i.ibb.co/MnWhShf/Honesh1.png"},
 ];
 
+const dhun = [
+    {img: "/dhun/banner.png"},
+    {img: "/dhun/ujm.png"},
+    {img: "/dhun/up.png"},
+    {img: "/dhun/information.png"},
+    {img: "/dhun/LF.png"},
+    {img: "/dhun/mid.png"},
+    {img: "/dhun/gyph.gif"},
+    {img: "/dhun/mock1.png"},
+    {img: "/dhun/mock2.png"},
+    {img: "/dhun/mock3.png"},
+];
 const sub = [
 {img: "https://i.ibb.co/q9488Ht/1.jpg"},
 {img: "https://i.ibb.co/r6x3KvX/2.jpg"},
@@ -287,5 +302,6 @@ export {
     ekchatur,
     ekchatur2,
     sub,
-    wahin
+    wahin,
+    dhun
 };
