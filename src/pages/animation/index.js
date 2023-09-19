@@ -13,7 +13,7 @@ export const Animation = () => {
           <title> Motion Graphics </title>
           <meta name="description" content="Dhun ~ Music Concert Planner App" />
       </Helmet>
-        <div className="container px-8 py-6">
+        <div className="container px-8 py-6 max-sm:py-1">
           <h1 className="text-4xl font-bold">Motion Graphics</h1>
         </div>
 
@@ -35,14 +35,14 @@ export const Animation = () => {
           </ul>
         </section> */}
 
-        <section className="mb-12 px-8">
-          <p className="text-lg px-12 mt-5">
+        <section className="mb-12 px-8 max-sm:px-4">
+          <p className="text-lg px-12 max-sm:px-0 mt-5 max-sm:m-0 max-sm:text-sm">
             I never thought of giving a shot to motion graphics as such untill my 6th semester of college 🎓 when I was intriduced to After Effects in depth, and I have fallen in love 💖 with it. I am keen on learning it in depth and make use of it in industrial uses.
           </p>
         </section>
 
         <section className="my-5">
-          <div className="columns-2 px-20">
+          <div className="columns-2 px-20 max-sm:px-4 max-sm:columns-1">
           {anim.map((anim, i) => {
             return (
                 <LazyLoadImage className="mb-4" key={i} src={anim.img} alt="" />
