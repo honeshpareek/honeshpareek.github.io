@@ -37,6 +37,17 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 768px){
+    .po_item{
+        min-height: 250px;
+
+    } 
+    
+    .po_item img{
+        min-height: 250px !important;
+    }
+}
+
 .po_item img {
     width: 100%;
     position: absolute;
