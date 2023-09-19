@@ -3,12 +3,37 @@
 	<url>
 		<loc>https://www.honeshpareek.vercel.app</loc>
 		<priority>0.95</priority>
+		<lastmod>2023-09-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/portfolio</loc>
+		<priority>0.95</priority>
+		<lastmod>2023-09-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/theka</loc>
+		<priority>0.95</priority>
+		<lastmod>2023-09-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/animation</loc>
+		<priority>0.95</priority>
+		<lastmod>2023-09-15</lastmod>
+	</url>
+<url>
+		<loc>https://www.honeshpareek.vercel.app/about</loc>
+		<priority>0.95</priority>
+		<lastmod>2023-09-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.honeshpareek.vercel.app/dhun</loc>
+		<priority>0.95</priority>
 		<lastmod>2023-07-28</lastmod>
 	</url>
 	<url>
 		<loc>https://www.honeshpareek.vercel.app/build</loc>
 		<priority>0.89</priority>
-		<lastmod>2023-07-28</lastmod>
+		<lastmod>2023-09-15</lastmod>
 	</url>
 	<url>
 		<loc>https://www.honeshpareek.vercel.app/public</loc>
