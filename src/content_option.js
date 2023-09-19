@@ -107,25 +107,30 @@ const dataportfolio = [
         link: "/dhun",
     },       
     {
-        img: "https://i.ibb.co/0fWQnrt/1576.png",
-        description: "Salus ~ AI enabled User-interface",
-        link: "/salus",
-    },
-    {
         img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
         description: "Omar ~ Music App",
         link: "/omar",
     },
     {
-        img: "https://f4.bcbits.com/img/a0763189012_10.jpg",
-        description: "Wahin Ka Wahin ~ Music Video",
-        link: "/wahin",
+        img: "https://i.ibb.co/0fWQnrt/1576.png",
+        description: "Salus ~ AI enabled User-interface",
+        link: "/salus",
     },
     {
         img: "https://i.ibb.co/QmBktVP/15.jpg",
         description: "THEKA ~ Branding",
         link: "/theka",
+    },  
+    {
+        img: "/anim/BouncingBall.gif",
+        description: "Motion Graphics",
+        link: "/animation",
     },   
+    {
+        img: "https://f4.bcbits.com/img/a0763189012_10.jpg",
+        description: "Wahin Ka Wahin ~ Music Video",
+        link: "/wahin",
+    },
 
    
     // {
@@ -231,6 +236,13 @@ const ekchatur2 = [
     {img: "https://i.ibb.co/MnWhShf/Honesh1.png"},
 ];
 
+const anim = [
+    {img: "/anim/DAZN.gif"},
+    {img: "/anim/BouncingBall.gif"},
+    {img: "/anim/YellowBig.gif"},
+    {img: "/anim/final.gif"},
+];
+
 const dhun = [
     {img: "/dhun/banner.png"},
     {img: "/dhun/ujm.png"},
@@ -303,5 +315,6 @@ export {
     ekchatur2,
     sub,
     wahin,
-    dhun
+    dhun,
+    anim
 };
