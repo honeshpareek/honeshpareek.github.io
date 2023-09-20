@@ -37,7 +37,7 @@ export const Dhun = () => {
         <section className="mb-12 px-8">
           <h2 className="text-lg font-bold mb-4">Project Overview</h2>
           <p className="text-lg px-12 mt-5">
-           The project brief was that A Music Concert organiser wanted an app with features like, creating and managing concerts, collaborating with the colleagues, getting Singer Popularity Index of the artists and Revenure prediction tool. It was a very quick project, hence it reflects a back-and-forth approach. 
+           The project briefed us about A Music Concert organising company who wanted an app with features like, creating and managing concerts, collaborating with the colleagues, getting Singer Popularity Index of the artists and Revenure prediction tool. It was a very quick project, with a timeling of 3 days hence it reflects a back-and-forth approach. I am stil building up on this project. 
           </p>
         </section>
 

@@ -95,6 +95,10 @@ const services = [{
         description: "Professionally using visual elements and creative concepts to communicate messages and ideas through various mediums.",
     },
     {
+        title: "Web Development",
+        description: "Developing completely responsive Websites and Webapps using HTML, CSS, JS and Javascript libraries like ReactJS, NextJS; with Serach Engine Optimization",
+    },
+    {
         title: "Photography & Cinematography",
         description: "Capture and preserve moments, emotions, and stories through the medium of photography and cinema with add-on talent of editing skills",
     },
@@ -164,7 +168,7 @@ const theka =[
     {img: "https://i.ibb.co/F87WsWJ/8.jpg"},
     {img: "https://i.ibb.co/NTYZRPR/11.jpg"},
     {img: "https://i.ibb.co/k0C6VkJ/13.jpg"},
-    {img: "https://i.ibb.co/JkPzGsQ/15.jpg"},
+    {img: "https://i.ibb.co/QmBktVP/15.jpg"},
     {img: "https://i.ibb.co/LkSLzJF/17.jpg"},
     {img: "https://i.ibb.co/wr16JqF/18.jpg"},
     {img: "https://i.ibb.co/WVmmJbV/21.jpg"},
