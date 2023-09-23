@@ -42,7 +42,7 @@ export const Home = () => {
                   />
                   </span>
                 </h1>
-                <p className="mb-5 max-sm:mb-2">{introdata.description}</p>
+                <p className="mb-5 hyphens-none max-sm:mb-2">{introdata.description}</p>
                 <div className="intro_btn-action mt-3 flex gap-5 justify-between max-sm:flex-row max-sm:gap-1">
                   <Link to="/portfolio" className="text_2 text-xs">
                     <div id="button_p" className="ac_btn btn ">
