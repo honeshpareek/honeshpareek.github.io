@@ -126,6 +126,16 @@ const dataportfolio = [
         link: "/theka",
     },  
     {
+        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
+        description: "Ek Chatur Naar ~ Type Illustration",
+        link: "/ekchatur",
+    }, 
+    {
+        img: "https://i.ibb.co/74jP49T/phantom.jpg",
+        description: "Phantom ~ Branding",
+        link: "/phantom",
+    }, 
+    {
         img: "/anim/BouncingBall.gif",
         description: "Motion Graphics",
         link: "/animation",
@@ -299,6 +309,19 @@ const wahin = [
     {img: "https://i.ibb.co/bKp6XXL/15.jpg"},
 ]
 
+const phantom = [
+    {img: "https://i.ibb.co/74jP49T/phantom.jpg"},
+    {img :"https://i.ibb.co/fH1n0wq/2.png"},
+    {img :"https://i.ibb.co/PMQdPQR/3.png"},
+    {img :"https://i.ibb.co/ZdS2xF0/4.png"},
+    {img :"https://i.ibb.co/s2S8phQ/5.png"},
+    {img :"https://i.ibb.co/b59SbQm/Phantom-Exploration-10.jpg"},
+    {img :"https://i.ibb.co/HpxqndB/6.png"},
+    {img :"https://i.ibb.co/zPY8BJy/7.png"},
+    {img :"https://i.ibb.co/XpGtVYw/8.png"},
+    {img :"https://i.ibb.co/cvq8mQ4/9.png"},
+]
+
 
 
 export {
@@ -320,5 +343,6 @@ export {
     sub,
     wahin,
     dhun,
-    anim
+    anim,
+    phantom
 };

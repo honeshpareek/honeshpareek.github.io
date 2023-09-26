@@ -14,6 +14,7 @@ import { Sub } from "../pages/subway";
 import { Gallery } from "../pages/photo";
 import { Dhun } from "../pages/dhun";
 import { Animation } from "../pages/animation"
+import {Phantom} from "../pages/phantom"
 
 
 import { Socialicons } from "../components/socialicons";
@@ -45,6 +46,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/dhun" element={<Dhun />} />
         <Route path="*" element={<Home />} />
         <Route path="/animation" element={<Animation />} />
+        <Route path="/phantom" element={<Phantom />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>
