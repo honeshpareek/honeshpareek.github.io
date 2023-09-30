@@ -255,6 +255,8 @@ const anim = [
     {img: "/anim/BouncingBall.gif"},
     {img: "/anim/YellowBig.gif"},
     {img: "/anim/final.gif"},
+    {img: "/anim/drink.gif"},
+    {img: "/anim/wordplay.gif"},
 ];
 
 const dhun = [
