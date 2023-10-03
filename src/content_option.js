@@ -125,16 +125,16 @@ const dataportfolio = [
         description: "THEKA ~ Branding",
         link: "/theka",
     },  
-    {
-        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
-        description: "Ek Chatur Naar ~ Type Illustration",
-        link: "/ekchatur",
-    }, 
-    {
-        img: "https://i.ibb.co/74jP49T/phantom.jpg",
-        description: "Phantom ~ Branding",
-        link: "/phantom",
-    }, 
+//    {
+//        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
+//        description: "Ek Chatur Naar ~ Type Illustration",
+//        link: "/ekchatur",
+ //   }, 
+//    {
+//        img: "https://i.ibb.co/74jP49T/phantom.jpg",
+//        description: "Phantom ~ Branding",
+//        link: "/phantom",
+//    }, 
     {
         img: "/anim/BouncingBall.gif",
         description: "Motion Graphics",
