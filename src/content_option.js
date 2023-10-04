@@ -115,11 +115,11 @@ const dataportfolio = [
         description: "Omar ~ Music App",
         link: "/omar",
     },
-    {
-        img: "https://i.ibb.co/0fWQnrt/1576.png",
-        description: "Salus ~ AI enabled User-interface",
-        link: "/salus",
-    },
+//    {
+//        img: "https://i.ibb.co/0fWQnrt/1576.png",
+ //       description: "Salus ~ AI enabled User-interface",
+//       link: "/salus",
+//    },
     {
         img: "https://i.ibb.co/QmBktVP/15.jpg",
         description: "THEKA ~ Branding",
