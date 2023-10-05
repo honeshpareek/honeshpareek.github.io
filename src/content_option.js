@@ -266,9 +266,9 @@ const anim = [
 const dhun = [
     {img: "/dhun/banner.png"},
     {img: "/dhun/ujm.png"},
-    {img: "/dhun/up.png"},
+    {img: "https://i.ibb.co/mCgHnX8/User-Personna.png"},
     {img: "/dhun/information.png"},
-    {img: "/dhun/LF.png"},
+    {img: "https://i.ibb.co/YprjvFj/Frame-1.png"},
     {img: "/dhun/mid.png"},
     {img: "/dhun/gyph.gif"},
     {img: "/dhun/mock1.png"},
@@ -326,6 +326,19 @@ const phantom = [
     {img :"https://i.ibb.co/zPY8BJy/7.png"},
     {img :"https://i.ibb.co/XpGtVYw/8.png"},
     {img :"https://i.ibb.co/cvq8mQ4/9.png"},
+]
+
+const atlas = [
+    {img:"https://i.ibb.co/30qhmDp/Cluster.png"},
+ {img:"https://i.ibb.co/dkF2jfd/Frame-5.png"},
+ {img:"https://i.ibb.co/QMMWpyX/Frame-6.png"},
+ {img:"https://i.ibb.co/ZSPKsZ8/Frame-7.png"},
+ {img:"https://i.ibb.co/d0y8Y1C/Frame-8.png"},
+ {img:"https://i.ibb.co/bXz9YMc/Frame-9.png"},
+ {img:"https://i.ibb.co/B3Yz19M/Frame-10.png"},
+ {img:"https://i.ibb.co/5GB2c7Z/Questionnaire.png"},
+ {img:"https://i.ibb.co/zQXwn4H/Questionnaireresults.png"},
+
 ]
 
 
