@@ -171,11 +171,13 @@ const socialprofils = {
 };
 
 const theka =[
+    {img: "https://i.ibb.co/FWwSTTH/2.jpg"},
     {img: "https://i.ibb.co/Fm7JfrC/5.jpg"},
     {img: "https://i.ibb.co/bmYVFfK/3.jpg"},
     {img: "https://i.ibb.co/gMTx0SZ/14.jpg"},
     {img: "https://i.ibb.co/PWPLy2g/7.jpg"},
     {img: "https://i.ibb.co/F87WsWJ/8.jpg"},
+    {img: "https://i.ibb.co/nMZms9Q/4.jpg"},
     {img: "https://i.ibb.co/NTYZRPR/11.jpg"},
     {img: "https://i.ibb.co/k0C6VkJ/13.jpg"},
     {img: "https://i.ibb.co/QmBktVP/15.jpg"},
@@ -190,6 +192,8 @@ const theka =[
 const omar =[
 {img: "https://i.ibb.co/YX0dfLT/1.jpg"},
 {img: "https://i.ibb.co/SDkDr2c/2.png"},
+{img: "https://i.ibb.co/t3HcQqL/3.jpg"},   
+{img: "https://i.ibb.co/hgJ2kpL/5.jpg"},
 {img: "https://i.ibb.co/BfNLbR4/6.png"},
 {img: "https://i.ibb.co/KXHqh8v/7.jpg"},
 {img: "https://i.ibb.co/ZdgXYsf/8.jpg"},
