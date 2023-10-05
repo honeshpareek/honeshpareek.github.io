@@ -105,16 +105,17 @@ const services = [{
 ];
 
 const dataportfolio = [
-    {
-        img: "/dhun/mock3light.png",
-        description: "Dhun ~ Concert Planner App",
-        link: "/dhun",
-    },       
+           
     {
         img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
         description: "Omar ~ Music App",
         link: "/omar",
     },
+    {
+        img: "/dhun/mock3light.png",
+        description: "Dhun ~ Concert Planner App",
+        link: "/dhun",
+    },       
 //    {
 //        img: "https://i.ibb.co/0fWQnrt/1576.png",
  //       description: "Salus ~ AI enabled User-interface",
@@ -135,9 +136,9 @@ const dataportfolio = [
 //        description: "Phantom ~ Branding",
 //        link: "/phantom",
 //    }, 
-    {
-        img: "/anim/BouncingBall.gif",
-        description: "Motion Graphics",
+{
+    img: "/anim/BouncingBall.gif",
+    description: "Motion Graphics",
         link: "/animation",
     },   
     {
@@ -145,7 +146,12 @@ const dataportfolio = [
         description: "Wahin Ka Wahin ~ Music Video",
         link: "/wahin",
     },
-
+    {
+        img: "https://i.ibb.co/vk7bdr4/atlasapp.png",
+        description: "Atlas app ~ Redesign UX",
+        link: "/atlas",
+    },
+    
    
     // {
     //     img: "https://www.designmantic.com/blog/wp-content/uploads/2016/08/SubWayNewLogo.png",
@@ -329,10 +335,10 @@ const phantom = [
 ]
 
 const atlas = [
+    {img:"https://i.ibb.co/dkF2jfd/Frame-5.png"},
+    {img:"https://i.ibb.co/QMMWpyX/Frame-6.png"},
+    {img:"https://i.ibb.co/ZSPKsZ8/Frame-7.png"},
     {img:"https://i.ibb.co/30qhmDp/Cluster.png"},
- {img:"https://i.ibb.co/dkF2jfd/Frame-5.png"},
- {img:"https://i.ibb.co/QMMWpyX/Frame-6.png"},
- {img:"https://i.ibb.co/ZSPKsZ8/Frame-7.png"},
  {img:"https://i.ibb.co/d0y8Y1C/Frame-8.png"},
  {img:"https://i.ibb.co/bXz9YMc/Frame-9.png"},
  {img:"https://i.ibb.co/B3Yz19M/Frame-10.png"},
@@ -363,5 +369,6 @@ export {
     wahin,
     dhun,
     anim,
-    phantom
+    phantom,
+    atlas
 };
