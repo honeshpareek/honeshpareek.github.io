@@ -16,6 +16,7 @@ import { Dhun } from "../pages/dhun";
 import { Animation } from "../pages/animation"
 import {Phantom} from "../pages/phantom"
 import {Atlas} from "../pages/atlas"
+import { Ibm } from "../pages/ibm";
 
 
 import { Socialicons } from "../components/socialicons";
@@ -49,6 +50,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/animation" element={<Animation />} />
         <Route path="/phantom" element={<Phantom />} />
         <Route path="/atlas" element={<Atlas />} />
+        <Route path="/ibm" element={<Ibm />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>

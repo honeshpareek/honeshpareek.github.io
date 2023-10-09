@@ -28,20 +28,21 @@ export const Portfolio = () => {
               <div key={i} className="po_item">
                 <LazyLoadImage src={data.img} alt="" />
                 
-                <div className="content font-bold">
                 <Link to={data.link}>
+                <div className="content font-bold">
                   <p>{data.description}</p>
-                 </Link>
                 </div>
+                 </Link>
               </div>
             );
           })}
-          <div className="po_item1">
+          <div className="po_item">
             <LazyLoadImage src="https://honeshraipareek.github.io/photography/auto.jpg" alt="auto" />
-            <div className="content1 font-black">
-              <p>Photography</p>
-              <a target="_blank" href="https://honeshraipareek.github.io/photo.html">view project</a>
+              <a target="_blank" href="https://honeshraipareek.github.io/photo.html">
+            <div className="content font-black">
+              <p>08</p>
             </div>
+            </a>
           </div>
         </div>
       </div>
