@@ -10,7 +10,7 @@
     --text-color: #fff;
     --text-color-2: #fff;
     --text-color-3: rgb(19, 140, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
+    --overlay-color: rgb(12, 12, 12);
 }
 
 [data-theme="light"] {
@@ -20,7 +20,7 @@
     --text-color: #000;
     --text-color-2: #000;
     --text-color-3: rgb(19, 140, 0);
-    --overlay-color: rgb(255 255 255 / 70%);
+    --overlay-color: rgb(255, 255, 255);
 }
 
 html,

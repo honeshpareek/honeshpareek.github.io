@@ -108,12 +108,12 @@ const dataportfolio = [
            
     {
         img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
-        description: "Omar ~ Music App",
+        description: "01",
         link: "/omar",
     },
     {
         img: "/dhun/mock3light.png",
-        description: "Dhun ~ Concert Planner App",
+        description: "02",
         link: "/dhun",
     },       
 //    {
@@ -123,7 +123,7 @@ const dataportfolio = [
 //    },
     {
         img: "https://i.ibb.co/QmBktVP/15.jpg",
-        description: "THEKA ~ Branding",
+        description: "03",
         link: "/theka",
     },  
 //    {
@@ -138,17 +138,17 @@ const dataportfolio = [
 //    }, 
 {
     img: "/anim/BouncingBall.gif",
-    description: "Motion Graphics",
+    description: "04",
         link: "/animation",
     },   
     {
         img: "https://f4.bcbits.com/img/a0763189012_10.jpg",
-        description: "Wahin Ka Wahin ~ Music Video",
+        description: "05",
         link: "/wahin",
     },
     {
         img: "https://i.ibb.co/vk7bdr4/atlasapp.png",
-        description: "Atlas app ~ Redesign UX",
+        description: "06",
         link: "/atlas",
     },
     

@@ -16,20 +16,22 @@ export const Portfolio = () => {
           <title> Portfolio | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </div>
-        <Row className="">
+        <Row className="my-8 mb-8">
           <Col lg="10">
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
-            <hr className="t_border my-4 ml-0 text-left" />
+
           </Col>
         </Row>
-        <div className="mb-3 grid px-24 max-sm:px-0 grid-cols-2 max-sm:grid-cols-1 gap-4 max-sm:gap-2 po_items_ho">
+        <div className="mb-3 grid  max-sm:px-0 grid-cols-2 max-sm:grid-cols-1 gap-4 max-sm:gap-2 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <LazyLoadImage src={data.img} alt="" />
-                <div className="content font-black">
+                
+                <div className="content font-bold">
+                <Link to={data.link}>
                   <p>{data.description}</p>
-                  <Link to={data.link}>view project</Link>
+                 </Link>
                 </div>
               </div>
             );
