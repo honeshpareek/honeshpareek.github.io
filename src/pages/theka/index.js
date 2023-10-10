@@ -12,7 +12,7 @@ export const Theka = () => {
           <h1 className="text-4xl font-bold">THEKA - Local Liqour Shop Branding</h1>
         </div>
 
-      <main className="container mx-auto py-8">
+      <main className="py-8">
       <section className="mb-5">
           <h2 className="text-lg font-bold mb-4">Features</h2>
           <ul className="list-none flex gap-3">
@@ -38,7 +38,7 @@ export const Theka = () => {
         </section>
 
         <section className="my-5">
-          <div className="max-w-screen-2xl  flex-col">
+          <div className="max-w-screen  flex-col">
           {theka.map((theka, i) => {
             return (
                 <LazyLoadImage className="my-4" key={i} src={theka.img} alt="" />

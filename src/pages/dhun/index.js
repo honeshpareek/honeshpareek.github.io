@@ -42,7 +42,7 @@ export const Dhun = () => {
         </section>
 
         <section className="my-5">
-          <div className="flex-col flex justify-center px-20">
+          <div className="flex-col flex justify-center ">
           {dhun.map((dhun, i) => {
             return (
                 <LazyLoadImage className="my-4" key={i} src={dhun.img} alt="" />

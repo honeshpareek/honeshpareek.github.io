@@ -10,7 +10,7 @@ export const Atlas = () => {
     <div className="">
     <Helmet>
           <meta charSet="utf-8" />
-          <title> Salus </title>
+          <title> Atlas app redesign </title>
           <meta name="description" content="Kal baat krte hai" />
       </Helmet>
         <div className="container px-8 py-6">
@@ -52,7 +52,7 @@ export const Atlas = () => {
         </section>
 
         <section className="w-full flex justify-center">
-          <a target="_blank" href="https://www.figma.com/proto/RQN4WLdKP6QgJpv1vj2x1n/TataNexon-Infotainment-Design?page-id=0%3A1&type=design&node-id=5-2&viewport=165%2C509%2C0.08&scaling=min-zoom&starting-point-node-id=5%3A2&show-proto-sidebar=1" className="rounded-full bg-blue-950 text-white text-xl font-black flex px-4 py-1">Figma Prototype</a>
+          <a target="_blank" href="https://www.figma.com/file/fapkdLocPIW20segV9nM16/Atlas-App?type=design&node-id=0%3A1&mode=design&t=fHbkPkTQ3KRLKueU-1" className="rounded-full bg-blue-950 text-white text-xl font-black flex px-4 py-1">Figma Prototype</a>
         </section>
 
        
