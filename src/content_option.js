@@ -107,21 +107,21 @@ const services = [{
 const dataportfolio = [
            
     {
-        img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
-        description: "01",
-        link: "/omar",
-    },
-    {
         img: "https://i.ibb.co/XtyxttG/19.png",
-        description: "02",
+        description: "01",
         link: "/ibm"
     },
     {
         img: "/dhun/mock3light.png",
-        description: "03",
+        description: "02",
         link: "/dhun",
     },       
-//    {
+    {
+        img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
+        description: "03",
+        link: "/omar",
+    },
+    //    {
 //        img: "https://i.ibb.co/0fWQnrt/1576.png",
  //       description: "Salus ~ AI enabled User-interface",
 //       link: "/salus",
