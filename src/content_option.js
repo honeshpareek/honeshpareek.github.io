@@ -202,6 +202,7 @@ const theka =[
 
 const omar =[
 {img: "https://i.ibb.co/YX0dfLT/1.jpg"},
+{img: "https://i.ibb.co/XYxnyhT/2.png"},
 {img: "https://i.ibb.co/SDkDr2c/2.png"},
 {img: "https://i.ibb.co/t3HcQqL/3.jpg"},   
 {img: "https://i.ibb.co/hgJ2kpL/5.jpg"},
@@ -215,6 +216,7 @@ const omar =[
 {img: "https://i.ibb.co/nkVzSLj/13.jpg"},
 {img: "https://i.ibb.co/2dhBy6v/14.jpg"},
 {img: "https://i.ibb.co/GdH0rMy/15.jpg"},
+{img: "https://i.ibb.co/cTYKmcw/17.png"},
 ];
 
 const salus = [
