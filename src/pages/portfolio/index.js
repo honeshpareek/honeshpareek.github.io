@@ -29,8 +29,11 @@ export const Portfolio = () => {
                 <LazyLoadImage src={data.img} alt="" />
                 
                 <Link to={data.link}>
-                <div className="content font-bold">
+                <div className="content w-full font-bold">
                   <p>{data.description}</p>
+                  <div className="">
+                  <h6>{data.name}</h6>
+                  </div>
                 </div>
                  </Link>
               </div>

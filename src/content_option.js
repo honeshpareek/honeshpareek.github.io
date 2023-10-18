@@ -109,16 +109,19 @@ const dataportfolio = [
     {
         img: "https://i.ibb.co/XtyxttG/19.png",
         description: "01",
+        name:"IBM Design Challenge",
         link: "/ibm"
     },
     {
         img: "/dhun/mock3light.png",
         description: "02",
+        name:"Mock Interview Challenge",
         link: "/dhun",
     },       
     {
         img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
         description: "03",
+        name:"Omar Music App",
         link: "/omar",
     },
     //    {
@@ -129,6 +132,7 @@ const dataportfolio = [
     {
         img: "https://i.ibb.co/QmBktVP/15.jpg",
         description: "04",
+        name:"Theka Branding",
         link: "/theka",
     },  
 //    {
@@ -144,16 +148,19 @@ const dataportfolio = [
 {
     img: "/anim/BouncingBall.gif",
     description: "05",
+    name:"Motion Graphics",
         link: "/animation",
     },   
     {
         img: "https://f4.bcbits.com/img/a0763189012_10.jpg",
         description: "06",
+        name:"",
         link: "/wahin",
     },
     {
         img: "https://i.ibb.co/vk7bdr4/atlasapp.png",
         description: "07",
+        name:"",
         link: "/atlas",
     },
     
