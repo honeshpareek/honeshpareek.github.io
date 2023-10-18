@@ -25,7 +25,7 @@ export const Home = () => {
               <div className="intro mx-auto">
                 <h2 className="text-xl mb-5 max-sm:mb-2">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x inline-flex gap-3"> 
-                  <span>I</span>
+                  <span>I am a</span>
                   <span>
                   <Typewriter
                     options={{

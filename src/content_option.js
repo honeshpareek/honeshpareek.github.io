@@ -7,9 +7,9 @@ const meta = {
 const introdata = {
     title: "Hello! I’m Honesh Rai Pareek",
     animated: {
-        first: "design.",
-        second: "code.",
-        third: "photograph.",
+        first: "designer.",
+        second: "developer.",
+        third: "photographer.",
     },
     description: "I'm a Communication Designer, born and brought up in Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
