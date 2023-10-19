@@ -154,13 +154,13 @@ const dataportfolio = [
     {
         img: "https://f4.bcbits.com/img/a0763189012_10.jpg",
         description: "06",
-        name:"",
+        name:"Wahin ka Wahin Music Video",
         link: "/wahin",
     },
     {
         img: "https://i.ibb.co/vk7bdr4/atlasapp.png",
         description: "07",
-        name:"",
+        name:"Atlas User Experience Redesign",
         link: "/atlas",
     },
     
