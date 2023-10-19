@@ -44,6 +44,9 @@ export const Portfolio = () => {
               <a target="_blank" href="https://honeshraipareek.github.io/photo.html">
             <div className="content font-black">
               <p>08</p>
+            <div>
+              <h6>Photography</h6>
+            </div>
             </div>
             </a>
           </div>
