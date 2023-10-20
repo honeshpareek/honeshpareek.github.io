@@ -10,6 +10,7 @@ const introdata = {
         first: "designer.",
         second: "developer.",
         third: "photographer.",
+        fourth: "story-teller."
     },
     description: "I'm a Communication Designer, born and brought up in Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
