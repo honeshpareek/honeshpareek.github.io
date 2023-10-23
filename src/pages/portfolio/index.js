@@ -39,14 +39,7 @@ export const Portfolio = () => {
               </div>
             );
           })}
-          <div className="po_item">
-            <LazyLoadImage src="https://honeshraipareek.github.io/photography/auto.jpg" alt="auto" />
-              <a target="_blank" href="https://honeshraipareek.github.io/photo.html">
-            <div className="content font-black">
-              <p>08</p>
-            </div>
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>

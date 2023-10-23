@@ -11,7 +11,7 @@ import { Salus } from "../pages/salus";
 import { Ekchatur } from "../pages/ekChatur";
 import { Wahin } from "../pages/wahinkawahin";
 import { Sub } from "../pages/subway";
-import { Gallery } from "../pages/photo";
+import Gallery  from "../pages/photo";
 import { Dhun } from "../pages/dhun";
 import { Animation } from "../pages/animation"
 import {Phantom} from "../pages/phantom"

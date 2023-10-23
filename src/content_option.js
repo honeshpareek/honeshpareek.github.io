@@ -163,6 +163,12 @@ const dataportfolio = [
         name:"",
         link: "/atlas",
     },
+    {
+        img: "https://i.ibb.co/db8qf8J/2022-04-20-040658000.jpg",
+        description: "08",
+        name:"",
+        link: "/photo",
+    },
     
    
     // {
