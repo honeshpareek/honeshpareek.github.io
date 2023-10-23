@@ -10,6 +10,7 @@ const introdata = {
         first: "designer.",
         second: "developer.",
         third: "photographer.",
+        fourth: "story-teller."
     },
     description: "I'm a Communication Designer, born and brought up in Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
@@ -154,13 +155,13 @@ const dataportfolio = [
     {
         img: "https://f4.bcbits.com/img/a0763189012_10.jpg",
         description: "06",
-        name:"",
+        name:"Wahin ka Wahin Music Video",
         link: "/wahin",
     },
     {
         img: "https://i.ibb.co/vk7bdr4/atlasapp.png",
         description: "07",
-        name:"",
+        name:"Atlas User Experience Redesign",
         link: "/atlas",
     },
     {

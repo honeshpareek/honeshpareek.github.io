@@ -36,8 +36,7 @@ export const Ibm = () => {
         <section className="mb-12 px-8">
           <h2 className="text-lg font-bold mb-4">Project Overview</h2>
           <p className="text-lg px-12 mt-5">
-           AI is taking over the world, and hence I looked at current situations of Automobile Industry in the Indian context, identified a few problems that could be 
-           solved with AI and therefore I designed 'Salus'.
+          IBM gave me the most fun campus recruitment experience. They had on opening for a experience designer and they sent across a design challenge to be solved by the students. In a brief, the aim of the project was to create a design solution for a US based MNC to solve their employees time clocked hours discrepancies. It was a very short project that was supposed to be completed and submitted over the course of 3 days.
           </p>
         </section>
 
