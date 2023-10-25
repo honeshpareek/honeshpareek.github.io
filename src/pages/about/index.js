@@ -63,8 +63,8 @@ export const About = () => {
           <Col lg="7" className="flex flex-row justify-center align-middle flex-wrap gap-5">
             {skills.map((data, i) => {
               return (
-                <div key={i} className="bg-slate-500 bg-opacity-20 rounded-full flex p-2">
-                  <h3 className="progress-title">{data.name}</h3>
+                <div key={i} className="bg-slate-500 justify-center items-center bg-opacity-20 rounded-full flex py-2 px-5">
+                  <h3 className="progress-title uppercase">{data.name}</h3>
                   {/* <div className="progress">
                     <div
                       className="progress-bar"

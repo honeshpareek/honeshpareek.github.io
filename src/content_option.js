@@ -10,7 +10,7 @@ const introdata = {
         first: "designer.",
         second: "developer.",
         third: "photographer.",
-        fourth: "story-teller."
+        fourth: "story-teller.",
     },
     description: "I'm a Communication Designer, born and brought up in Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
@@ -54,7 +54,7 @@ const worktimeline = [
 ];
 
 const skills = [{
-        name: "🎙️ Communication",
+        name: "🎙️ Story-teller",
         value: 90,
     },
     {
@@ -66,7 +66,7 @@ const skills = [{
         value: 92,
     },
     {
-        name: "✌️ Interaction Design",
+        name: "✌️ Brand Design",
         value: 95,
     },
     {
@@ -87,14 +87,16 @@ const skills = [{
     },
 ];
 
-const services = [{
+const services = [
+    {
+        title: "Branding and Advertising",
+        description: "Elevating brands with creative design and strategic communication. Crafting impactful visuals, logos, and advertising campaigns to drive brand recognition and engagement.",
+    },
+    {
         title: "UI & UX Design",
         description: "Creating visually appealing and user-friendly interfaces for digital products to enhance the overall user experience. ",
     },
-    {
-        title: "Graphic Design",
-        description: "Professionally using visual elements and creative concepts to communicate messages and ideas through various mediums.",
-    },
+   
     {
         title: "Web Development",
         description: "Developing completely responsive Websites and Webapps using HTML, CSS, JS and Javascript libraries like ReactJS, NextJS; with Serach Engine Optimization",
@@ -108,45 +110,45 @@ const services = [{
 const dataportfolio = [
            
     {
-        img: "https://i.ibb.co/XtyxttG/19.png",
-        description: "01",
-        name:"IBM Design Challenge",
-        link: "/ibm"
-    },
-    {
         img: "/dhun/mock3light.png",
-        description: "02",
+        description: "01",
         name:"Mock Interview Challenge",
         link: "/dhun",
     },       
+    {
+        img: "https://i.ibb.co/QmBktVP/15.jpg",
+        description: "02",
+        name:"Theka Branding",
+        link: "/theka",
+    },  
     {
         img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
         description: "03",
         name:"Omar Music App",
         link: "/omar",
     },
+    {
+        img: "https://i.ibb.co/74jP49T/phantom.jpg",
+        description: "04",
+        name: "Phantom Logo Redesign",
+        link: "/phantom",
+    }, 
+    {
+        img: "https://i.ibb.co/XtyxttG/19.png",
+        description: "05",
+        name:"IBM Design Challenge",
+        link: "/ibm"
+    },
     //    {
-//        img: "https://i.ibb.co/0fWQnrt/1576.png",
+        //        img: "https://i.ibb.co/0fWQnrt/1576.png",
  //       description: "Salus ~ AI enabled User-interface",
 //       link: "/salus",
 //    },
-    {
-        img: "https://i.ibb.co/QmBktVP/15.jpg",
-        description: "04",
-        name:"Theka Branding",
-        link: "/theka",
-    },  
 //    {
 //        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
 //        description: "Ek Chatur Naar ~ Type Illustration",
 //        link: "/ekchatur",
  //   }, 
-   {
-       img: "https://i.ibb.co/74jP49T/phantom.jpg",
-       description: "05",
-       name: "Phantom Logo Redesign",
-       link: "/phantom",
-   }, 
 {
     img: "/anim/BouncingBall.gif",
     description: "06",
