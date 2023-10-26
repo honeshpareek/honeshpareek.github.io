@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./style.css";
-import { VscGrabber, VscClose } from "react-icons/vsc";
+import { VscGrabber, VscClose, VscCloudDownload } from "react-icons/vsc";
 import { useNavigate, Link } from "react-router-dom";
 import {socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 import { WiDirectionLeft } from "react-icons/wi";
+
 
 const Headermain = () => {
   const navigate = useNavigate();
@@ -29,7 +30,10 @@ const Headermain = () => {
           > <WiDirectionLeft className="w-100 h-100" /> </Link>
         </div>
         <div className="flex gap-2 align-items-center ">
-          <div className="d-flex align-items-center">
+          <div className="d-flex gap-2 align-items-center">
+           <Link to=".\HoneshRaiPareek_Resume.pdf" target="_blank" title="Click to see my Resume">
+            <VscCloudDownload  />
+           </Link>
           <Themetoggle />
           <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
