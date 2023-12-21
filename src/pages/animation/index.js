@@ -49,6 +49,15 @@ export const Animation = () => {
             );
           })}
           </div>
+          <div className="px-20 max-sm:px-4 columns-1 ">
+          <div className="aspect-w-16 aspect-h-9 h-screen">
+    <iframe
+      src="https://player.vimeo.com/video/896094200?h=85149ce756"
+      className="w-full h-full"
+      allow="autoplay; fullscreen"
+      allowfullscreen
+    ></iframe>
+  </div>          </div>
         </section>
 {/* 
         <section className="w-full flex justify-center">
