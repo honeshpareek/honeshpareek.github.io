@@ -22,6 +22,12 @@ const dataabout = {
 };
 const worktimeline = [
     {
+        jobtitle: "🧑‍💻 Design Co-Op Intern",
+        where: "Procter & Gamble",
+        date: "2024",
+        skills:"E-Commerce, User Research,, UX, Communication Design",
+    },
+    {
         jobtitle: "🧑‍💻 UI/UX & Branding Freelancer",
         where: "",
         date: "2023",
@@ -189,7 +195,7 @@ const contactConfig = {
     description: "Please feel free to reach out to me via the form with a personalised message. ",
     YOUR_SERVICE_ID: "service_lpfkzma",
     YOUR_TEMPLATE_ID: "template_cv8nkuh",
-    YOUR_USER_ID: "GDxLD3Db3lzXQTh1T",
+    YOUR_USER_ID: "F_8kRzYWvwNIoj9hZ",
 };
 
 const socialprofils = {

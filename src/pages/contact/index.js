@@ -29,7 +29,7 @@ export const ContactUs = () => {
     };
 
     emailjs.init(
-      "GDxLD3Db3lzXQTh1T",
+      "F_8kRzYWvwNIoj9hZ",
     )
 
     emailjs
