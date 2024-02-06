@@ -25,7 +25,7 @@ const worktimeline = [
         jobtitle: "🧑‍💻 Design Co-Op Intern",
         where: "Procter & Gamble",
         date: "2024",
-        skills:"E-Commerce, User Research,, UX, Communication Design",
+        skills:"E-Commerce, User Research, Communication Design",
     },
     {
         jobtitle: "🧑‍💻 UI/UX & Branding Freelancer",
