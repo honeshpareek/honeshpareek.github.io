@@ -60,11 +60,17 @@ export const About = () => {
           <Col lg="3">
             <h3 className="color_sec py-4 font-bold">Skills</h3>
           </Col>
-          <Col lg="7" className="flex flex-row justify-center align-middle flex-wrap gap-5">
+          <Col lg="7" className="flex flex-row justify-center align-middle flex-wrap gap-4">
             {skills.map((data, i) => {
               return (
-                <div key={i} className="bg-slate-500 justify-center items-center bg-opacity-20 rounded-full flex py-2 px-5">
-                  <h3 className="progress-title uppercase">{data.name}</h3>
+              <div className="relative rounded-full w-fit overflow-clip ">
+                <div className="absolute progress-width -z-10 w-full h-full flex"
+                style={{
+                  width: `${data.value}%`,
+                }}></div>
+                <div key={i} className=" w-max bg-slate-500 justify-center items-center rounded-full flex py-3 px-4 m-1" 
+               >
+                  <h3 className=" uppercase">{data.name}</h3>
                   {/* <div className="progress">
                     <div
                       className="progress-bar"
@@ -76,6 +82,7 @@ export const About = () => {
                     </div>
                   </div> */}
                 </div>
+              </div>
               );
             })}
           </Col>

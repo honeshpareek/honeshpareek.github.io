@@ -61,7 +61,7 @@ const worktimeline = [
 
 const skills = [{
         name: "🎙️ Story-teller",
-        value: 90,
+        value: 100,
     },
     {
         name: "✏️ Adobe Suite",
@@ -73,19 +73,19 @@ const skills = [{
     },
     {
         name: "✌️ Brand Design",
-        value: 95,
+        value: 90,
     },
     {
         name: "👨‍💻 Front-end Development (Web)",
-        value: 80,
+        value: 75,
     },
     {
         name: "🔍 Research",
-        value: 85,
+        value: 65,
     },
     {
         name: "🐊 Problem Solving",
-        value: 97,
+        value: 100,
     },
     {
         name: "📸 Photography & Cinematography",
