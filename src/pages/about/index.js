@@ -10,6 +10,7 @@ import {
   services,
 } from "../../content_option";
 import SkillsCarousel from "../../components/carousel";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export const About = () => {
   return (
@@ -47,7 +48,11 @@ export const About = () => {
                   return (
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
+                      <td className="flex gap-2">
+                        <div className="flex justify-center items-center rounded-full overflow-clip w-8">
+                        <LazyLoadImage className=" " key={i} src={data.img} alt="" /></div>
+                        {data.where}
+                        </td>
                       <td>{data.date}</td>
                     </tr>
                   );
