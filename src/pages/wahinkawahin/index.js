@@ -49,11 +49,16 @@ export const Wahin = () => {
           </div>
         </section>
 
+        <div className="aspect-w-16 aspect-h-9 h-screen">
+    <iframe
+      src="https://player.vimeo.com/video/833932438?h=233dabe5a8"
+      className="w-full h-full"
+      allow="autoplay; fullscreen"
+      allowfullscreen
+    ></iframe>
+  </div>     
 
-       
-        <section className="w-full flex justify-center">
-          <a target="_blank" href="https://vimeo.com/833932438?share=copy" className="rounded-full bg-blue-950 text-white text-xl font-black flex px-4 py-1">Vimeo Link</a>
-        </section>
+
 
       </main>
 
