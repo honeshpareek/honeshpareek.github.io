@@ -31,7 +31,7 @@ const Headermain = () => {
         </div>
         <div className="flex gap-2 align-items-center ">
           <div className="d-flex gap-2 align-items-center">
-           <Link className="flex flex-col items-center justify-center" to=".\HoneshRaiPareek_Resume.pdf" target="_blank" title="Click to see my Resume">
+           <Link className="flex flex-col items-center justify-center" to=".\Resume_HoneshPareek.pdf" target="_blank" title="Click to see my Resume">
             <VscCloudDownload  />
             <h2 className="text-sm max-sm:hidden">Resume</h2>
            </Link>

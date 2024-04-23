@@ -17,6 +17,7 @@ import { Animation } from "../pages/animation"
 import {Phantom} from "../pages/phantom"
 import {Atlas} from "../pages/atlas"
 import { Ibm } from "../pages/ibm";
+import { NovaSync } from "../pages/novasync";
 
 
 import { Socialicons } from "../components/socialicons";
@@ -51,6 +52,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/phantom" element={<Phantom />} />
         <Route path="/atlas" element={<Atlas />} />
         <Route path="/ibm" element={<Ibm />} />
+        <Route path="/novasync" element={<NovaSync />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>

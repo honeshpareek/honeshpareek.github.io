@@ -101,12 +101,12 @@ const skills = [{
 
 const services = [
     {
-        title: "Branding and Advertising",
-        description: "Elevating brands with creative design and strategic communication. Crafting impactful visuals, logos, and advertising campaigns to drive brand recognition and engagement.",
-    },
-    {
         title: "UI & UX Design",
         description: "Creating visually appealing and user-friendly interfaces for digital products to enhance the overall user experience. ",
+    },
+    {
+        title: "Branding and Advertising",
+        description: "Elevating brands with creative design and strategic communication. Crafting impactful visuals, logos, and advertising campaigns to drive brand recognition and engagement.",
     },
    
     {
@@ -122,29 +122,41 @@ const services = [
 const dataportfolio = [
            
     {
+        img: "https://i.ibb.co/QmBktVP/15.jpg",
+        description: "02",
+        name:"Theka Branding",
+        link: "/theka",
+    },
+    {
         img: "/dhun/mock3light.png",
         description: "01",
         name:"Mock Interview Challenge",
         link: "/dhun",
     },       
     {
-        img: "https://i.ibb.co/QmBktVP/15.jpg",
-        description: "02",
-        name:"Theka Branding",
-        link: "/theka",
+        img: "/anim/BCGLogoIntroOutroWeb.gif",
+        description: "03",
+        name :"NovaSync Branding",
+        link: "/novasync",
     },  
     {
         img: "https://i.ibb.co/jRqKp1d/i-Phone-13-Pro.png",
-        description: "03",
+        description: "04",
         name:"Omar Music App",
         link: "/omar",
     },
+    // {
+    //     img: "https://i.ibb.co/74jP49T/phantom.jpg",
+    //     description: "04",
+    //     name: "Phantom Logo Redesign",
+    //     link: "/phantom",
+    // }, 
     {
-        img: "https://i.ibb.co/74jP49T/phantom.jpg",
-        description: "04",
-        name: "Phantom Logo Redesign",
-        link: "/phantom",
-    }, 
+        img: "https://i.ibb.co/vk7bdr4/atlasapp.png",
+        description: "07",
+        name:"Atlas UX Redesign",
+        link: "/atlas",
+    },
     {
         img: "https://i.ibb.co/XtyxttG/19.png",
         description: "05",
@@ -173,12 +185,6 @@ const dataportfolio = [
         name:"Wahin ka Wahin Music Video",
         link: "/wahin",
     },
-    // {
-    //     img: "https://i.ibb.co/vk7bdr4/atlasapp.png",
-    //     description: "07",
-    //     name:"Atlas User Experience Redesign",
-    //     link: "/atlas",
-    // },
     {
         img: "https://i.ibb.co/db8qf8J/2022-04-20-040658000.jpg",
         description: "08",
@@ -228,6 +234,28 @@ const theka =[
     {img: "https://i.ibb.co/b6gj3J6/mock-1.png"},
     {img: "https://i.ibb.co/ZJsM92b/mock-2.png"},
 ];
+
+const nova = [
+{img: "https://i.ibb.co/ySXZDM3/2.jpg"},
+{img: "https://i.ibb.co/9cHW5Q6/3.jpg"},
+{img: "https://i.ibb.co/4RhQh4g/4.jpg"},
+{img: "https://i.ibb.co/YbFyXz8/5.jpg"},
+{img: "https://i.ibb.co/zQNzWYB/7.jpg"},
+{img: "https://i.ibb.co/HK1XWKb/8.jpg"},
+{img: "https://i.ibb.co/m0cKwbG/9.jpg"},
+{img: "https://i.ibb.co/yBrJLG2/10.jpg" },
+{img: "https://i.ibb.co/vZzJTD2/12.jpg" },
+{img: "https://i.ibb.co/55Ppn3q/13.jpg" },
+{img: "https://i.ibb.co/SRqbs99/14.jpg" },
+{img: "https://i.ibb.co/nDk0Xxp/15.jpg" },
+{img: "https://i.ibb.co/6YBrFw4/16.jpg" },
+{img: "https://i.ibb.co/MM3VbSr/19.jpg" },
+{img: "https://i.ibb.co/9gNGpKP/21.jpg" },
+{img: "https://i.ibb.co/m8sRP2m/22.jpg" },
+{img: "https://i.ibb.co/XjZrwZP/25.jpg" },
+{img: "https://i.ibb.co/r49LVQw/26.jpg" },
+{img: "https://i.ibb.co/1sDkmR4/27.jpg" }
+]
 
 const omar =[
 {img: "https://i.ibb.co/YX0dfLT/1.jpg"},
@@ -402,6 +430,24 @@ const atlas = [
  {img:"https://i.ibb.co/B3Yz19M/Frame-10.png"},
  {img:"https://i.ibb.co/5GB2c7Z/Questionnaire.png"},
  {img:"https://i.ibb.co/zQXwn4H/Questionnaireresults.png"},
+ {img: "https://i.ibb.co/hZFyj0y/8.jpg"},
+ {img: "https://i.ibb.co/gmyCm2Y/9.jpg"},
+ {img: "https://i.ibb.co/TkL45vW/10.jpg"},
+ {img: "https://i.ibb.co/4RXG9VY/11.jpg"},
+ {img: "https://i.ibb.co/rdfFqfz/12.jpg"},
+ {img: "https://i.ibb.co/ZYnpgZs/18.jpg"},
+{img: "https://i.ibb.co/wcw6qg1/19.jpg"},
+{img: "https://i.ibb.co/Jvg8HkG/20.jpg"},
+{img: "https://i.ibb.co/cQFBCft/21.jpg"},
+{img: "https://i.ibb.co/9shSTTS/22.jpg"},
+{img: "https://i.ibb.co/W6x4j94/23.jpg"},
+{img: "https://i.ibb.co/MMtfvCw/24.jpg"},
+{img: "https://i.ibb.co/HCTRcpB/25.jpg"},
+{img: "https://i.ibb.co/fYtSyRN/26.jpg"},
+{img: "https://i.ibb.co/8PdQHDy/27.jpg"},
+{img: "https://i.ibb.co/xY9pKX6/28.jpg"},
+{img: "https://i.ibb.co/Wpymsbn/29.jpg"},
+{img: "https://i.ibb.co/mbqrm2Q/31.jpg"},
 
 ]
 
@@ -430,4 +476,5 @@ export {
     phantom,
     atlas,
     ibm,
+    nova
 };
