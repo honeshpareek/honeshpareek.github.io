@@ -262,7 +262,7 @@ const nova = [
     {img: "https://i.ibb.co/qkhz7xr/24.jpg"},
     {img: "https://i.ibb.co/mDWfkdp/25.jpg"},
     {img: "https://i.ibb.co/gt9hPT0/26.jpg"},
-    {img: "https://i.ibb.co/7Wb7V2Y/27.jpg"},
+    {img: "https://i.ibb.co/hZJ61Lt/27.jpg"},
     {img: "https://i.ibb.co/nQfqWM0/28.jpg"},
     {img: "https://i.ibb.co/Cv32ssh/29.jpg"},
     {img: "https://i.ibb.co/BL53cvX/30.jpg"},
