@@ -31,10 +31,11 @@ const Headermain = () => {
         </div>
         <div className="flex gap-2 align-items-center ">
           <div className="d-flex gap-2 align-items-center">
-           <Link className="flex flex-col items-center justify-center" to=".\Resume_HoneshPareek.pdf" target="_blank" title="Click to see my Resume">
+            {/* FIXME: Resume button has been hidden, resume need to accessed through direct servel link only}
+           {/* <Link className="flex flex-col items-center justify-center" to=".\Resume_HoneshPareek.pdf" target="_blank" title="Click to see my Resume">
             <VscCloudDownload  />
             <h2 className="text-sm max-sm:hidden">Resume</h2>
-           </Link>
+           </Link> */}
           <Themetoggle />
           <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
