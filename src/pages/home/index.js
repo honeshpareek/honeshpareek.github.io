@@ -4,33 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-
-const pupils = document.querySelectorAll(".eye .pupil");
-
-window.addEventListener("mousemove", (e) => {
-  pupils.forEach((pupil) => {
-    const eye = pupil.parentElement;
-    const rect = eye.getBoundingClientRect(); // use eye, not pupil
-
-    const eyeCenterX = rect.left + rect.width / 2;
-    const eyeCenterY = rect.top + rect.height / 2;
-
-    const deltaX = e.clientX - eyeCenterX;
-    const deltaY = e.clientY - eyeCenterY;
-
-    // limit max movement radius
-    const maxMovement = 15; // in px
-
-    const angle = Math.atan2(deltaY, deltaX);
-    const distance = Math.min(maxMovement, Math.hypot(deltaX, deltaY));
-
-    const x = Math.cos(angle) * distance;
-    const y = Math.sin(angle) * distance;
-
-    pupil.style.transform = `translate(${x}px, ${y}px)`;
-  });
-});
-
+import {Eyes} from "../../components/eyes";
 
 export const Home = () => {
   return (
@@ -43,19 +17,8 @@ export const Home = () => {
           <meta name="google-site-verification" content="SYeZBg5U-ovWM4OEaAmSOkEgcBd4MZzz7364VnQS2TI" />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div className="h_bg-image flex items-center order-1 order-lg-2 h-100">
-            <div class="eyes">
-              <div class="eye">
-                <div class="pupil">
-                  <div class="glare"></div>
-                </div>
-              </div>
-              <div class="eye">
-                <div class="pupil">
-                  <div class="glare"></div>
-                </div>
-              </div>
-            </div>
+          <div className="h_bg-image flex justify-center items-center order-1 order-lg-2 h-100">
+            <Eyes />
           </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
