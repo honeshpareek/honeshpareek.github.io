@@ -209,6 +209,10 @@ section {
     .h_bg-image {
     background-image: url("https://i.ibb.co/kJC9fp5/me22.png");
     }
+    
+    .h_bg-image div {
+        display: none;
+    }
 }
 
 .intro_sec .h_bg-image .block .wrap-icon {
