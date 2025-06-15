@@ -1,6 +1,6 @@
 const logotext = "";
 const meta = {
-    title: "Honesh Rai Pareek | Portfolio 23'",
+    title: "Honesh Rai Pareek | Portfolio 23",
     description: "I'm a Communication Designer from Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
 };
 
@@ -12,7 +12,7 @@ const introdata = {
         third: "photographer.",
         fourth: "story-teller.",
     },
-    description: "I'm a Communication Designer, born and brought up in Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
+    description: "I'm a Designer, born and brought up in Jaipur, currently based in Bengaluru. This is my 2025's design portfolio, Hope you will enjoy it!",
     your_img_url: "https://i.ibb.co/kJC9fp5/me22.png",
 };
 
@@ -163,11 +163,11 @@ const dataportfolio = [
         name:"IBM Design Challenge",
         link: "/ibm"
     },
-    //    {
-        //        img: "https://i.ibb.co/0fWQnrt/1576.png",
- //       description: "Salus ~ AI enabled User-interface",
-//       link: "/salus",
-//    },
+       {
+               img: "https://i.ibb.co/0fWQnrt/1576.png",
+       description: "Salus ~ AI enabled User-interface",
+      link: "/salus",
+   },
 //    {
 //        img: "https://i.ibb.co/MnWhShf/Honesh1.png",
 //        description: "Ek Chatur Naar ~ Type Illustration",

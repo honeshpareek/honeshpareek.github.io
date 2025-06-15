@@ -5,6 +5,19 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
+// get both pupils
+const pupils = document.querySelectorAll(".eye .pupil");
+window.addEventListener("mousemove", (e) => {
+  pupils.forEach((pupil) => {
+    // get x and y postion of cursor
+    var rect = pupil.getBoundingClientRect();
+    var x = (e.pageX - rect.left) / 30 + "px";
+    var y = (e.pageY - rect.top) / 30 + "px";
+    pupil.style.transform = "translate3d(" + x + "," + y + ", 0px)";
+  });
+});
+
+
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -16,10 +29,16 @@ export const Home = () => {
           <meta name="google-site-verification" content="SYeZBg5U-ovWM4OEaAmSOkEgcBd4MZzz7364VnQS2TI" />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
-          ></div>
+          <div className="h_bg-image flex items-center order-1 order-lg-2 h-100">
+             <div class="eyes">
+                  <div class="eye">
+                  <div class="pupil"></div>
+                </div>
+                <div class="eye">
+                  <div class="pupil"></div>
+                </div>
+              </div>
+          </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
