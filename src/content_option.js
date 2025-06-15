@@ -22,14 +22,21 @@ const dataabout = {
 };
 const worktimeline = [
     {
+        jobtitle: "🤵 Associate Designer",
+        where: "BCG (Boston Consulting Group)",
+        date: "2024 - Currently",
+        skills:"GenAI, UI/UX Design, Branding, Design Thinking",
+        img: "https://images.ctfassets.net/oe48y40ukei6/7znyJc3Y7SecEoKSYKWoaQ/823b9197d34f0dcb0f3dee778dc625a7/P_G_Logo_RGB.svg",
+    },
+    {
         jobtitle: "🧑‍💻 Design Co-Op Intern",
         where: "Procter & Gamble",
         date: "2024",
         skills:"E-Commerce, User Research, Communication Design",
-        img: "https://images.ctfassets.net/oe48y40ukei6/7znyJc3Y7SecEoKSYKWoaQ/823b9197d34f0dcb0f3dee778dc625a7/P_G_Logo_RGB.svg",
+        img: "https://web-assets.bcg.com/dims4/default/3c6c7ce/2147483647/strip/true/crop/801x321+0+0/resize/1440x577!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fdd%2F73%2F31f1a101450aa12f58433fee9247%2Fbcg-monogram.png",
     },
     {
-        jobtitle: "🧑‍💻 UI/UX & Branding Freelancer",
+        jobtitle: "🖥️ UI/UX & Branding Freelancer",
         where: "Freelancer",
         date: "2023",
         skills:"Branding, Brand Identity",

@@ -5,15 +5,29 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
-// get both pupils
 const pupils = document.querySelectorAll(".eye .pupil");
+
 window.addEventListener("mousemove", (e) => {
   pupils.forEach((pupil) => {
-    // get x and y postion of cursor
-    var rect = pupil.getBoundingClientRect();
-    var x = (e.pageX - rect.left) / 30 + "px";
-    var y = (e.pageY - rect.top) / 30 + "px";
-    pupil.style.transform = "translate3d(" + x + "," + y + ", 0px)";
+    const eye = pupil.parentElement;
+    const rect = eye.getBoundingClientRect(); // use eye, not pupil
+
+    const eyeCenterX = rect.left + rect.width / 2;
+    const eyeCenterY = rect.top + rect.height / 2;
+
+    const deltaX = e.clientX - eyeCenterX;
+    const deltaY = e.clientY - eyeCenterY;
+
+    // limit max movement radius
+    const maxMovement = 15; // in px
+
+    const angle = Math.atan2(deltaY, deltaX);
+    const distance = Math.min(maxMovement, Math.hypot(deltaX, deltaY));
+
+    const x = Math.cos(angle) * distance;
+    const y = Math.sin(angle) * distance;
+
+    pupil.style.transform = `translate(${x}px, ${y}px)`;
   });
 });
 
@@ -30,14 +44,18 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div className="h_bg-image flex items-center order-1 order-lg-2 h-100">
-             <div class="eyes">
-                  <div class="eye">
-                  <div class="pupil"></div>
-                </div>
-                <div class="eye">
-                  <div class="pupil"></div>
+            <div class="eyes">
+              <div class="eye">
+                <div class="pupil">
+                  <div class="glare"></div>
                 </div>
               </div>
+              <div class="eye">
+                <div class="pupil">
+                  <div class="glare"></div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">

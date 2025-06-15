@@ -73,7 +73,7 @@ export const About = () => {
                 style={{
                   width: `${data.value}%`,
                 }}></div>
-                <div key={i} className=" w-max bg-slate-500 justify-center items-center rounded-full flex py-3 px-4 m-1" 
+                <div key={i} className=" w-max bg-slate-400 justify-center items-center rounded-full flex py-3 px-4 m-1" 
                >
                   <h3 className=" uppercase">{data.name}</h3>
                   {/* <div className="progress">
