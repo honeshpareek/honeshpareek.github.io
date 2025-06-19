@@ -22,51 +22,53 @@ const dataabout = {
 };
 const worktimeline = [
     {
-        jobtitle: "🤵 Associate Designer",
+        jobtitle: "Associate Designer",
         where: "BCG (Boston Consulting Group)",
         date: "2024 - Currently",
         skills:"GenAI, UI/UX Design, Branding, Design Thinking",
-        img: "https://images.ctfassets.net/oe48y40ukei6/7znyJc3Y7SecEoKSYKWoaQ/823b9197d34f0dcb0f3dee778dc625a7/P_G_Logo_RGB.svg",
+        img: "https://web-assets.bcg.com/dims4/default/3c6c7ce/2147483647/strip/true/crop/801x321+0+0/resize/1440x577!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fdd%2F73%2F31f1a101450aa12f58433fee9247%2Fbcg-monogram.png",
     },
+        
     {
-        jobtitle: "🧑‍💻 Design Co-Op Intern",
+        jobtitle: "Design Co-Op Intern",
         where: "Procter & Gamble",
         date: "2024",
         skills:"E-Commerce, User Research, Communication Design",
-        img: "https://web-assets.bcg.com/dims4/default/3c6c7ce/2147483647/strip/true/crop/801x321+0+0/resize/1440x577!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fdd%2F73%2F31f1a101450aa12f58433fee9247%2Fbcg-monogram.png",
+        img: "https://images.ctfassets.net/oe48y40ukei6/7znyJc3Y7SecEoKSYKWoaQ/823b9197d34f0dcb0f3dee778dc625a7/P_G_Logo_RGB.svg",
     },
+       
     {
-        jobtitle: "🖥️ UI/UX & Branding Freelancer",
+        jobtitle: "UI/UX & Branding Freelancer",
         where: "Freelancer",
         date: "2023",
         skills:"Branding, Brand Identity",
         img: "",
     },
     {
-        jobtitle: "🧑‍💻 UI Developer",
+        jobtitle: "UI Developer",
         where: "Club Mahindra",
         date: "2022",
         skills:"Design Principles of UI, React.js, Tailwind CSS",
         img: "https://play-lh.googleusercontent.com/5E_96jGKJX1_pbJo1KRQwe73ebXOifaktwfMAEddhnVJzAf6kPjGQ4VzxDHgTMhaTaE",
     },
     {
-        jobtitle: "✏️ Web Designer",
+        jobtitle: "Web Designer",
         where: "Addventures by Anando Dutta",
         date: "2022",
         skills:"Design Principles of UI, Layouting, HTML, CSS",
         img: "",
     },
     {
-        jobtitle: "👮‍♂️ HOD Security",
+        jobtitle: "HOD Security",
         where: "ISDI Inferno 2022",
         date: "2022",
         skills:"Leadership, problem-solving",
         img: "https://media.licdn.com/dms/image/D4D03AQF9ltjJfl7ADw/profile-displayphoto-shrink_800_800/0/1700742483167?e=2147483647&v=beta&t=4R1DUR9t22JjCflO6BNn3L8aJDZNcMfuC0tp_gvpUPo",
     },
     {
-        jobtitle: "📸 Cinematographer and Assistant Editor",
+        jobtitle: "Cinematographer and Assistant Editor",
         where: "G P Productions",
-        date: "2019",
+        date: "2019-20",
         skills:"Cinema, Story-telling, Editing ",
         img: "https://static.wixstatic.com/media/bbbacc_74f9c0df6a87419ab875706ef51023ce~mv2.png/v1/fill/w_201,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/new%20logo%202021.png",
     },

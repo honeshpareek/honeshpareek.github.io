@@ -46,10 +46,10 @@ export const About = () => {
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
-                    <tr key={i}>
+                    <tr key={i} className="h-6 justify-start items-center">
                       <th scope="row">{data.jobtitle}</th>
-                      <td className="flex gap-2">
-                        <div className="flex justify-center items-center rounded-full overflow-clip w-8">
+                      <td className="flex gap-3 items-center">
+                        <div className="flex justify-center items-center overflow-clip w-8">
                         <LazyLoadImage className=" " key={i} src={data.img} alt="" /></div>
                         {data.where}
                         </td>
