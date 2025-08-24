@@ -1,7 +1,7 @@
 const logotext = "";
 const meta = {
     title: "Honesh Rai Pareek | Portfolio 23",
-    description: "I'm a Communication Designer from Jaipur, currently based in Mumbai. This is my 2023's design portfolio, self-designed and developed.",
+    description: "I'm a Communication Designer from Jaipur, currently based in Mumbai. This is my 2025's design portfolio, self-designed and developed.",
 };
 
 const introdata = {
